@@ -1,190 +1,132 @@
 'use client';
-import Image from "next/image";
-import Link from "next/link";
+
+import Link from 'next/link';
+import Image from 'next/image';
+
 export default function Footer() {
   return (
-    <>
-      <footer className="footer-section bg-dark text-white mb-0 pb-0">
-        <div className="container">
-          <div className="row pb-5 border-bottom border-light">
-            <div className="col-md-5 px-md-5 d-flex justify-content-center align-items-center">
-              <div className="footer-association">
-                <Link href="/">
-                  <Image
-                    src="/img/weblogo.png"
-                    alt="logo"
-                    width={150}
-                    height={50}
-                    className="d-none logo white-png d-block mx-auto img-fluid"
-                  />
-                </Link>
-                <p className="text-md-start text-center text-white fs-1 lh-sm">
-                  Let's make something great work together.
-                </p>
-                <div className="row py-md-4 py-3">
-                  <div className="col-md-6">
-                    <p className="fw-bold text-md-start text-center text-white mb-0">Address</p>
-                    <p className="text-md-start text-center text-white ">
-                      <i className="fa fa-map-marker "></i> 123 Street, City, Country
-                    </p>
-                  </div>
-                  <div className="col-md-6">
-                    <p className="fw-bold text-md-start text-center text-white mb-0">Call our office</p>
-                    <p className="text-md-start text-center text-white ">
-                      <i className="fa fa-phone "></i> +123 456 7890
-                    </p>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-            {/* Project Info */}
-
-          
-            <div className="col-md-2 m-center py-3">
-              <div>
-                <h4 className="footer-title pb-3">Quick Links</h4>
-                <ul className="px-0" style={{ listStyle: "none" }}>
-                  <li className="noclass">
-                    <Link href="./" className="text-decoration-none text-white">
-                      Home
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/" className="text-decoration-none text-white">
-                      About
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/" className="text-decoration-none text-white">
-                      Service
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/" className="text-decoration-none text-white">
-                      Blog
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link
-                      href="/"
-                      className="text-decoration-none text-white"
-                    >
-                      Contact
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/contact"
-                      className="text-decoration-none text-white"
-                    >
-                      Privacy Policy
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-
+    <footer className=" text-light pt-5 pb-3"  style={{
+    backgroundImage: `url('/img/bg-01.png')`,
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'left center',
+    backgroundColor: '#000', // fallback dark navy
+    backgroundSize: 'contain',
+  }}>
+      {/* Call to Action */}
+      <div className="container pb-4 border-bottom border-secondary text-center text-md-start" data-aos="fade-up"
+      data-aos-duration="1200">
+        <div className="row align-items-center">
+          <div className="col-md-6 mb-3 mb-md-0 d-flex align-items-center justify-content-center justify-content-md-start">
+            <div>
+              <h2 className="fw-bold text-white">Get a consultation services.</h2>
+              <p className="text-white">We will take care of your business accounting services.</p>
             </div>
 
-            <div className="col-md-2 m-center py-3 ">
-              <h4 className="footer-title pb-3 ">Service</h4>
-              <ul className="px-0 " style={{ listStyle: "none" }}>
-                <li className="noclass">
-                  <Link href="./" className="text-decoration-none text-white">
-                    Service
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/" className="text-decoration-none text-white">
-                    Service
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/" className="text-decoration-none text-white">
-                    Service
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/" className="text-decoration-none text-white">
-                    Service
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/"
-                    className="text-decoration-none text-white"
-                  >
-                    Service
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/"
-                    className="text-decoration-none text-white"
-                  >
-                    Service
-                  </Link>
-                </li>
-
-              </ul>
+          </div>
+          <div className="col-md-6 text-md-end d-flex align-items-center justify-content-center justify-content-md-end">
+            <div>
+              <Link href="/" className="btn btn-danger rounded-pill me-2">
+                <i className="bi bi-envelope-fill me-1"></i> Free consultation
+              </Link>
+              <a href="tel:+12345678910" className="btn btn-teal bg-teal text-white rounded-pill">
+                <i className="bi bi-telephone-fill me-1"></i> +1 234 567 8910
+              </a>
             </div>
-            {/* Developer Info */}
 
-            {/* Get In Touch Form */}
-            <div className="col-md-3">
-              <div>
-                <h4 className="footer-heading m-center py-3">GET IN TOUCH</h4>
-                <form className="footer-form ">
-                  <div className="row">
-                    <div className="col-md-6"> <input
-                      type="text"
-                      placeholder="Name"
-                      className="footer-input rounded-0 form-control mb-3"
-                    /> </div>
-                    <div className="col-md-6">
-                      <input
-                        type="email"
-                        placeholder="Email"
-                        className="footer-input rounded-0 form-control mb-3"
-                      /> </div>
-                  </div>
+          </div>
+        </div>
+      </div>
 
-                  <div className="row">
-                    <div className="col-md-12">
-                      <input
-                        type="tel"
-                        placeholder="Contact Number"
-                        className="footer-input rounded-0 form-control mb-3"
-                      />
-                    </div>
-                  </div>
-                  <div className="row">
-                    <div className="col-md-12">
-                      <textarea className="footer-input rounded-0 form-control mb-3 rows=2" placeholder="Message"></textarea>
-                    </div>
-                  </div>
-                  <div className="m-center text-center row">
-                    <div className="col-md-12">
-                      <button type="submit" className="btn btn-light footer-button mb-3">
-                        SUBMIT
-                      </button></div>
+      {/* Footer Content */}
+      <div className="container mt-5" data-aos="fade-up"
+      data-aos-duration="1400">
+        <div className="row gy-4">
+          {/* Logo & Social */}
+          <div className="col-md-3  col-12 m-center ">
+            <div className="d-flex  justify-content-center justify-content-md-start mb-3">
+              <Image
+                src="/img/weblogo.png" // Update this path to your actual logo file
+                alt="Logo"
+                width={80}
+                height={30}
+                className="me-md-2 img-fluid "
+              />
 
-                  </div>
-                </form>
-              </div>
+            </div>
+            <p className="text-white small m-center">
+              Lorem ipsum amet adipiscing elit to eiusmod ad tempor.
+            </p>
+            <div className="d-flex gap-3 mt-3 align-items-md-start align-items-center justify-content-center justify-content-md-start">
+              <a href="#" className="text-white"><i className="bi bi-facebook"></i></a>
+              <a href="#" className="text-white"><i className="bi bi-dribbble"></i></a>
+              <a href="#" className="text-white"><i className="bi bi-twitter"></i></a>
+              <a href="#" className="text-white"><i className="bi bi-instagram"></i></a>
+            </div>
+          </div>
 
+          {/* About */}
+          <div className="col-md-2 col-12 ps-0 ps-md-5 m-center">
+            <h6 className="fw-bold text-white mb-3 ">About</h6>
+            <ul className="list-unstyled text-white small">
+              <li><Link href="/company" className="text-decoration-none text-white">Company</Link></li>
+              <li><Link href="/services" className="text-decoration-none text-white">Services</Link></li>
+              <li><Link href="/process" className="text-decoration-none text-white">Process</Link></li>
+              <li><Link href="/contact" className="text-decoration-none text-white">Contact</Link></li>
+            </ul>
+          </div>
+
+          {/* Services */}
+          <div className="col-md-2  col-12 ps-0 m-center">
+            <h6 className="fw-bold text-white mb-3">Services</h6>
+            <ul className="list-unstyled text-white small">
+              <li><Link href="/services/financial" className="text-decoration-none text-white">Financial</Link></li>
+              <li><Link href="/services/investment" className="text-decoration-none text-white">Investment</Link></li>
+              <li><Link href="/services/banking" className="text-decoration-none text-white">Banking</Link></li>
+              <li><Link href="/services/consulting" className="text-decoration-none text-white">Consulting</Link></li>
+            </ul>
+          </div>
+
+          {/* Contact Info */}
+          <div className="col-md-2 m-center">
+            <h6 className="fw-bold text-white mb-3">Get in touch</h6>
+            <p className="text-white small mb-1">Need support?</p>
+            <a href="mailto:hi@domain.com" className="text-white small d-block">hi@domain.com</a>
+            <p className="text-white small mt-2 mb-1">Customer care?</p>
+            <a href="tel:+12345678910" className="text-white small d-block">+1 234 567 8910</a>
+          </div>
+
+          {/* Newsletter */}
+          <div className="col-md-3 m-center">
+            <h6 className="fw-bold text-white mb-3">Subscribe to newsletter</h6>
+            <p className="text-white small">Enter your email and we contact you!</p>
+            <div className="input-group mt-2">
+              <input
+                type="email"
+                className="form-control form-control-sm"
+                placeholder="Enter your email"
+              />
+              <span className="input-group-text">
+                <i className="bi bi-envelope-fill"></i>
+              </span>
             </div>
           </div>
         </div>
+      </div>
 
-        {/* Copyright */}
-        <div className="footer-bottom text-center mb-0 ">
-          <p className="mb-0 py-4">© {new Date().getFullYear()} IM Services. All rights reserved.</p>
+      {/* Bottom Bar */}
+      <div className="container mt-4 pt-3 mb-0 border-top border-secondary text-center text-muted small" >
+        <div className="row" >
+          <div className="col-md-6 text-md-start mb-2 mb-md-0 text-white"  >
+            <p >   © Copyright 2025 <Link href="/" className="text-decoration-none text-light">IM Solutions</Link></p>
+         
+          </div>
+          <div className="col-md-6 text-md-end">
+            <Link href="/privacy-policy" className="text-light text-decoration-none me-3">Privacy policy</Link>
+            <Link href="/terms" className="text-light text-decoration-none me-3">Terms and conditions</Link>
+            <Link href="/copyright" className="text-light text-decoration-none">Copyright</Link>
+          </div>
         </div>
-      </footer>
-
-    </>
-
+      </div>
+    </footer>
   );
 }

@@ -1,0 +1,19 @@
+.card .img-fluid {
+  transition: transform 0.3s ease;
+}
+.card:hover .img-fluid {
+  transform: scale(1.05);
+}
+
+/* Apply background image + gradient */
+.card-content-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent), url('/img/bg-01.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+}

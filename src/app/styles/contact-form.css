@@ -1,0 +1,21 @@
+.form-field {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  border-radius: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0.6rem;
+  background-color: transparent;
+  box-shadow: none;
+  transition: border-color 0.3s ease;
+}
+
+.form-field:focus {
+  border-bottom-color: #000;
+  outline: none;
+  box-shadow: none;
+}
+
+textarea.form-field {
+  resize: none;
+}

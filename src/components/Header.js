@@ -12,7 +12,7 @@ export default function Header() {
   }, []);
 
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar navbar-expand-lg navbar-dark">
       <div className="container">
         <Link className="navbar-brand" data-aos="fade-right" href="#">
           <img
