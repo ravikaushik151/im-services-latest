@@ -22,8 +22,6 @@ export default function Home() {
 
       <HeroSection />
 
-   
-      {/* About Section */}
       <section className="section bg-light" data-aos="fade-up"
         data-aos-duration="1000">
         <div className="container">

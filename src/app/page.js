@@ -1,11 +1,8 @@
 
 import Image from "next/image";
-import styles from "./page.module.css";
-import SwiperCarousel from '@/components/SwiperCarousel';
-import HomeTopSection from '@/components/HomeTopSection';
-import WhatMakesUsDifferent from "@/components/WhatMakesUsDifferent";
+
 import ServiceTabs from '@/components/ServiceTabs';
-import TestimonialsSection from '@/components/TestimonialsSection';
+
 import HeroSection from '@/components/HeroSection';
 import VideoSection from '@/components/VideoSection';
 import ServicesSlider from '@/components/ServicesSlider';
@@ -24,19 +21,7 @@ export default function Home() {
 
       <HeroSection />
 
-      {/* <section className="hero" data-aos="fade-up"
-        data-aos-duration="1200">
-        <h1 >Timeless Creativity.<br />Powerful, Lasting Brand Impact.</h1>
-        <p>
-          We craft compelling campaigns through classic media, building brand
-          recognition, trust, and visibility that stand the test of time.
-        </p>
-        <a href="#" className="btn-round ms-md-5 mt-0 mb-5">Start Your<br />Project</a>
-        <div className="container-fluid px-md-5  text-center mt-5">
-          <SwiperCarousel />
-        </div>
-      </section> */}
-      {/* About Section */}
+      
       <section className="section bg-light" data-aos="fade-up"
         data-aos-duration="1000">
         <div className="container">
