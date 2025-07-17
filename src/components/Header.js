@@ -71,7 +71,7 @@ export default function Header() {
               >
                 Services
               </Link>
-              <ul className="dropdown-menu bg-transparent ps-md-0 ps-2" aria-labelledby="navbarDropdown">
+              <ul className="dropdown-menu bg-black bg-opacity-75 py-3 mt-3  ps-2" aria-labelledby="navbarDropdown">
                 <li>
                   <Link className="dropdown-item text-white" href="/service/service-1">Service 1</Link>
                 </li>
