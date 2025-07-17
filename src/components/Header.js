@@ -33,19 +33,20 @@ export default function Header() {
           className="collapse navbar-collapse justify-content-center"
           id="navbarNav"
         >
-          <ul className="navbar-nav">
+          <ul className="navbar-nav " style={{ maxHeight: "500px" }}>
+            {/* Home Link */}
             <li
               className="nav-item px-5"
               data-aos="fade-left"
               data-aos-duration="1000"
             >
-              <Link className="nav-link fw-bold fs-6" href="/">
+              <Link className="nav-link fw-bold fs-6 py-md-0 py-1" href="/">
                 Home
               </Link>
             </li>
             <li className="nav-item px-5">
               <Link
-                className="nav-link fw-bold fs-6"
+                className="nav-link fw-bold fs-6 py-md-0 py-1"
                 href="/"
                 data-aos="fade-left"
                 data-aos-duration="1200"
@@ -61,7 +62,7 @@ export default function Header() {
               data-aos-duration="1400"
             >
               <Link
-                className="nav-link dropdown-toggle fw-bold fs-6"
+                className="nav-link dropdown-toggle fw-bold fs-6 py-md-0 py-1"
                 href="/"
                 id="navbarDropdown"
                 role="button"
@@ -70,28 +71,28 @@ export default function Header() {
               >
                 Services
               </Link>
-              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <ul className="dropdown-menu bg-transparent ps-md-0 ps-2" aria-labelledby="navbarDropdown">
                 <li>
-                  <Link className="dropdown-item" href="/service/service-1">Service 1</Link>
+                  <Link className="dropdown-item text-white" href="/service/service-1">Service 1</Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" href="/service/service-2">Service 2</Link>
+                  <Link className="dropdown-item text-white" href="/service/service-2">Service 2</Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" href="/service/service-3">Service 3</Link>
+                  <Link className="dropdown-item text-white" href="/service/service-3">Service 3</Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" href="#/service/service-4">Service 4</Link>
+                  <Link className="dropdown-item text-white" href="#/service/service-4">Service 4</Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" href="#/service/service-5">Service 5</Link>
+                  <Link className="dropdown-item text-white" href="#/service/service-5">Service 5</Link>
                 </li>
               </ul>
             </li>
 
             <li className="nav-item px-5">
               <Link
-                className="nav-link fw-bold fs-6"
+                className="nav-link fw-bold fs-6  py-md-0 py-1"
                 href="/"
                 data-aos="fade-left"
                 data-aos-duration="1600"
@@ -101,7 +102,7 @@ export default function Header() {
             </li>
             <li className="nav-item px-5">
               <Link
-                className="nav-link fw-bold fs-6"
+                className="nav-link fw-bold fs-6  py-md-0 py-1"
                 href="/"
                 data-aos="fade-left"
                 data-aos-duration="1800"

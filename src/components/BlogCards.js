@@ -2,19 +2,22 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { blogPosts } from '../data/blogPosts';
-import '../app/styles/blog-cards.css'; // ← add this CSS file
+import homeData from '../data/home'; // adjust path if needed
+import '../app/styles/blog-cards.css';
 
 export default function BlogCards() {
-  return (
-    <section className="py-5" data-aos="fade-up"
-      data-aos-duration="1500">
-      <div className="container">
-       <div className='row'>
-  <p className="text-uppercase text-muted text-center mb-2">Our Blog</p>
-          <h2 className="fw-bold mb-5 text-center">Inspiring Ideas, Expert Insights, Creative Perspectives</h2>
+  const { blogPosts } = homeData;
 
-       </div>
+  return (
+    <section className="py-5" data-aos="fade-up" data-aos-duration="1500">
+      <div className="container">
+        <div className="row">
+          <p className="text-uppercase text-muted text-center mb-2">Our Blog</p>
+          <h2 className="fw-bold mb-5 text-center text-uppercase ">
+            Inspiring Ideas, Expert Insights, Creative Perspectives
+          </h2>
+        </div>
+
         <div className="row g-4">
           {blogPosts.map((post) => (
             <div className="col-md-4" key={post.id}>
@@ -28,17 +31,12 @@ export default function BlogCards() {
                   style={{ maxHeight: '350px' }}
                 />
 
-                {/* Overlay appears on hover only */}
                 <div className="blog-card-overlay"></div>
 
-                {/* Tag */}
-                <div className="blog-card-tag">
-                  {post.category}
-                </div>
+                <div className="blog-card-tag">{post.category}</div>
 
-                {/* Title */}
                 <div className="blog-card-title">
-                <Link href={`/blog/${post.id}`} className="text-white text-decoration-none">
+                  <Link href={`/blog/${post.id}`} className="text-white text-decoration-none">
                     {post.title}
                   </Link>
                 </div>

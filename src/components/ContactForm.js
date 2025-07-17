@@ -42,7 +42,7 @@ export default function ContactForm() {
 
       {/* ✅ Content */}
       <div className="container position-relative" style={{ zIndex: 2 }}>
-        <div className="row">
+        <div className="row px-md-3 px-3">
           <div className="col-md-10 d-block mx-auto shadow px-md-5 px-3 py-3 py-md-5 py-4 bg-white text-dark rounded-4" data-aos="fade-up"
       data-aos-duration="2000">
             <p className="text-uppercase text-muted text-center mb-2">Contact Us</p>

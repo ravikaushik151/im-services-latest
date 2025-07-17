@@ -55,7 +55,7 @@ export default function CorporateServicesSlider() {
         <div className="mb-4" data-aos="fade-up"
       data-aos-duration="1500">
           <p className="text-uppercase small text-white">Creative Approach</p>
-          <h2 className="display-6 fw-bold">Corporate services</h2>
+          <h2 className="display-6 fw-bold text-uppercase ">Corporate services</h2>
           <p className="text-white" style={{ maxWidth: '500px' }}>
             We strive to develop real-world web solutions that are ideal for small to large projects
             with bespoke your custom project requirements.
@@ -92,8 +92,8 @@ export default function CorporateServicesSlider() {
 
                 {/* Bottom overlay with background image + gradient */}
                 <div className="card-content-overlay">
-                  <h5 className="mb-0">{service.title}</h5>
-                  <small className="text-white-50">{service.subtitle}</small>
+                  <h5 className="mb-0 mb-0 lh-md fw-semibold">{service.title}</h5>
+                  <small className="text-white-0">{service.subtitle}</small>
                 </div>
               </div>
             </SwiperSlide>

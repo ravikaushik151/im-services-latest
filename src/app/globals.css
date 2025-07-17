@@ -639,8 +639,15 @@ body {
     margin-left: 0 !important;
   }
 }
-
+@media (max-width: 991.98px) {
+  .top-hero .swiper-button-prev,
+  .top-hero .swiper-button-next {
+    display: none !important;
+  }
+  .dropdown-item:focus, .dropdown-item:hover{background-color:rgba(0, 0, 0, 0.05) !important;}
+}
 @media (max-width: 768px) {
+  
   .creative {
     position: relative !important;
     height: auto;

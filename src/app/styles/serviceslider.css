@@ -1,13 +1,14 @@
 .card .img-fluid {
   transition: transform 0.3s ease;
 }
+
 .card:hover .img-fluid {
   transform: scale(1.05);
 }
 
 /* Apply background image + gradient */
 .card-content-overlay {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent), url('/img/bg-01.jpg');
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.1));
   background-size: cover;
   background-position: center;
   padding: 1rem;
@@ -16,4 +17,7 @@
   left: 0;
   width: 100%;
   color: #fff;
+}
+.card .img-fluid:hover .card-content-overlay {
+ background: linear-gradient(to top, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.3));
 }

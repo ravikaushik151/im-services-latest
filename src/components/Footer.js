@@ -18,8 +18,8 @@ export default function Footer() {
         <div className="row align-items-center">
           <div className="col-md-6 mb-3 mb-md-0 d-flex align-items-center justify-content-center justify-content-md-start">
             <div>
-              <h2 className="fw-bold text-white">Get a consultation services.</h2>
-              <p className="text-white">We will take care of your business accounting services.</p>
+              <h2 className="fw-bold text-white text-uppercase ">Get a consultation services.</h2>
+              <p className="text-white text-uppercase ">We will take care of your business accounting services.</p>
             </div>
 
           </div>

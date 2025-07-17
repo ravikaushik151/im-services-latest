@@ -30,7 +30,7 @@ export default function FaqSection() {
           <span className="text-muted">Basic </span>
           <span className="text-primary">Information</span>
         </p>
-        <h2 className="fw-bold mb-4">Frequently asked questions</h2>
+        <h2 className="fw-bold mb-4 text-uppercase ">Frequently asked questions</h2>
 
         <div className="accordion border-top">
           {faqs.map((item, index) => (
