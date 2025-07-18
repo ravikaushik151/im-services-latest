@@ -48,7 +48,7 @@ export default function Footer() {
               <Link href="/" className="btn btn-danger rounded-pill me-3 mb-3">
                 <i className="bi bi-envelope-fill me-1"></i> Free consultation
               </Link>
-              <a href="tel:+918880564488" className="btn btn-outline-light bg-teal text-white rounded-pill">
+              <a href="tel:+918880564488" className="btn btn-outline-light rounded-pill me-3 mb-3">
                 <i className="bi bi-telephone-fill me-1"></i> +91 888 056 4488
               </a>
             </div>
@@ -78,9 +78,9 @@ export default function Footer() {
                   Lorem ipsum amet adipiscing elit to eiusmod ad tempor  Lorem ipsum amet adipiscing elit to eiusmod ad tempor  Lorem ipsum amet adipiscing elit to eiusmod ad tempor Lorem ipsum amet adipiscing elit to eiusmod ad tempor.
                 </p>
 
-                <a href="mailto:info@imsolutions.mobi" className="text-white mb-2 d-block fs-5 text-center text-decoration-none"> <i className="bi bi-envelope-open"></i> info@imsolutions.mobi</a>
+                <a href="mailto:info@imsolutions.mobi" className="text-white mb-md-0 my-1 d-block fs-5 text-center text-decoration-none"> <i className="bi bi-envelope-open"></i> info@imsolutions.mobi</a>
 
-                <a href="tel:+918880564488" className="text-white  mb-2 d-block  fs-5 text-center text-decoration-none"> <i className="bi bi-telephone"></i> +91 888 056 4488</a>
+                <a href="tel:+918880564488" className="text-white  mb-md-0 my-1 d-block  fs-5 text-center text-decoration-none"> <i className="bi bi-telephone"></i> +91 888 056 4488</a>
                 <div className="d-flex gap-3 mt-3  fs-5 align-items-md-start align-items-center justify-content-center ">
                   FOLLOW US :
                   <a href="#" className="text-white"><i className="bi bi-facebook"></i></a>
