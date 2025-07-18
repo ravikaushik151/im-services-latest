@@ -141,6 +141,7 @@ const homeData = {
     "Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet.",
   },
  ],
+
 };
 
 export default homeData;

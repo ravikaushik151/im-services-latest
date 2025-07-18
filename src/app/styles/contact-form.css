@@ -1,21 +1,33 @@
-.form-field {
+.contact-form {
+  background-color: #2c2d58; /* Match background of second image */
+  color: #fff;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  border-radius: 8px;
   border: none;
-  border-bottom: 2px solid #ccc;
-  border-radius: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-bottom: 0.6rem;
-  background-color: transparent;
-  box-shadow: none;
-  transition: border-color 0.3s ease;
+  font-size: 1rem;
 }
 
-.form-field:focus {
-  border-bottom-color: #000;
-  outline: none;
-  box-shadow: none;
+.contact-form .form-control::placeholder,
+.contact-form .form-select {
+  color: #888 !important;
 }
 
-textarea.form-field {
-  resize: none;
+.contact-form .btn-primary {
+  background: linear-gradient(to right, #c7322d, #c7322d);
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 0.75rem;
+}
+
+.contact-form .btn-primary:hover {
+  background: linear-gradient(to right, #c7322d, #c7322d);
+}
+
+.contact-form i.bi-arrow-right {
+  font-size: 1rem;
 }

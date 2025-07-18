@@ -45,7 +45,7 @@ export default function VideoSection() {
               >
                 <a
                   href={videoBanner.buttonLink}
-                  className="d-flex justify-content-center align-items-center"
+                  className="d-flex justify-content-center align-items-center my-md-0 my-4"
                   style={{
                     width: '80px',
                     height: '80px',

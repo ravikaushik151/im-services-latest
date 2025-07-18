@@ -61,7 +61,7 @@ export default function ServicePage({ params }) {
       <ServicesSlider />
       <BlogCards />
       <FaqSection />
-      <ContactForm />
+     
     </>
   );
 }

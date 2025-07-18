@@ -142,6 +142,44 @@ const homeData = {
     "Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet.",
   },
  ],
+ services : [
+  {
+    title: 'Business Planning',
+    subtitle: 'Strategic planning for growth',
+    tag: 'Strategy',
+    image: '/img/service1.jpg',
+  },
+  {
+    title: 'Market Research',
+    subtitle: 'Insights to drive decisions',
+    tag: 'Analysis',
+    image: '/img/service2.jpg',
+  },
+  {
+    title: 'Brand Development',
+    subtitle: 'Build a memorable brand',
+    tag: 'Identity',
+    image: '/img/service3.jpg',
+  },
+  {
+    title: 'Digital Marketing',
+    subtitle: 'Online campaigns that convert',
+    tag: 'Marketing',
+    image: '/img/service4.jpg',
+  },
+  {
+    title: 'Customer Analytics',
+    subtitle: 'Understand your audience deeply',
+    tag: 'Analytics',
+    image: '/img/service5.jpg',
+  },
+  {
+    title: 'Operations Consulting',
+    subtitle: 'Improve efficiency & delivery',
+    tag: 'Optimization',
+    image: '/img/service6.jpg',
+  },
+]
 };
 
 export default homeData;
