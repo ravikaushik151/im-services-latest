@@ -38,13 +38,14 @@ export default function HeroSlider({ slides }) {
               <div className="container z-1">
                 <div className="row justify-content-center justify-content-lg-start">
                   <div className="col-lg-7 text-center text-lg-start">
-                    <p className="text-uppercase small mb-2">{slide.subheading}</p>
+                    
                     <h1 className="display-4">
                       {slide.heading.split(' ').slice(0, -2).join(' ')}{' '}
                       <span className="text-white fw-bold">
                         {slide.heading.split(' ').slice(-2).join(' ')}
                       </span>
                     </h1>
+                    <p className="text-uppercase small mb-2">{slide.subheading}</p>
                     <a
                       href="#get-started"
                       className="btn btn-light btn-lg mt-4 rounded-pill px-4"
