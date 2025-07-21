@@ -70,9 +70,10 @@ export default function ServicesSlider() {
       <div className="container position-relative">
         {/* Heading + Navigation */}
         <div className="mb-4" data-aos="fade-up" data-aos-duration="1500">
-          <p className="text-uppercase small text-white">Creative Approach</p>
+          <p className="text-uppercase small text-white">Types of </p>
           <div className="d-flex align-items-center justify-content-between">
-            <h2 className="display-6 fw-bold text-uppercase">Corporate services</h2>
+            <h2 className="display-6 fw-bold text-uppercase">GEO Services We Offer
+            </h2>
             <div className="d-flex gap-2">
               <button ref={prevRef} className="btn btn-outline-light custom-prev">
                 <i className="bi bi-chevron-left"></i>
@@ -123,9 +124,12 @@ export default function ServicesSlider() {
                       />
                     </div>
                     <div className="col-md-6 px-3 m-center">
-                      <span className="badge bg-white text-dark shadow-sm px-3 py-2 my-3 fw-semibold rounded-pill">
-                        {service.tag}
-                      </span>
+                      {service.tag && (
+                        <span className="badge bg-white text-dark shadow-sm px-3 py-2 my-3 fw-semibold rounded-pill">
+                          {service.tag}
+                        </span>
+                      )}
+
                       <h2 className="fw-bold fs-3 mb-1 text-dark text-uppercase m-center">
                         {service.title.split(' ')[0]}{' '}
                         <span className="text-dark fw-bold">{service.title.split(' ').slice(1).join(' ')}</span>

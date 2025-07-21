@@ -10,9 +10,9 @@ export default function ServiceTabs({ services }) {
     <section className="bg-white py-5">
       <div className="container">
         <div className='row' data-aos="fade-up" data-aos-duration="1000">
-          <p className="text-uppercase text-muted mb-2 text-center">Key Features</p>
+          <p className="text-uppercase text-muted mb-2 text-center">Key Features of </p>
           <h2 className="fw-bold mb-5 text-center text-uppercase ">
-            Inspiring Ideas, Expert Insights, Creative Perspectives
+            GEO
           </h2>
         </div>
         <div className="row align-items-center">

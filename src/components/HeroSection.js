@@ -49,7 +49,7 @@ export default function HeroSlider({ slides }) {
                       href="#get-started"
                       className="btn btn-light btn-lg mt-4 rounded-pill px-4"
                     >
-                      GET STARTED NOW <i className="bi bi-arrow-right ms-2"></i>
+                  {slide.cta}<i className="bi bi-arrow-right ms-2"></i>
                     </a>
                   </div>
                 </div>
