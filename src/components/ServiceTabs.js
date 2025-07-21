@@ -23,12 +23,12 @@ export default function ServiceTabs({ services }) {
                 <li key={item.id} className="mb-3">
                   <button
                     className={`btn text-start d-flex align-items-center gap-2 border-0 ${activeTab === index
-                      ? 'bg-dark border shadow-sm fw-semibold text-white fs-5'
+                      ? 'bg-dark border shadow-sm fw-semibold text-white fs-6'
                       : 'bg-transparent text-dark'
                       }`}
                     onClick={() => setActiveTab(index)}
                   >
-                    <i className={`bi ${item.icon} fs-5`}></i>
+                    <i className={`bi ${item.icon} fs-6`}></i>
                     {item.title}
                   </button>
                 </li>
@@ -49,9 +49,13 @@ export default function ServiceTabs({ services }) {
 
           {/* Text Content */}
           <div className="col-lg-3 px-3 py-3" data-aos="fade-left" data-aos-duration="1000">
-            <span className="badge bg-white text-dark shadow-sm px-3 py-3 rounded-pill mb-3">
-              <i className="bi bi-globe me-2"></i> {service.subtitle}
-            </span>
+            {service.subtitle && (
+              <span className="badge bg-white text-dark shadow-sm px-3 py-3 rounded-pill mb-3">
+                <i className="bi bi-globe me-2 d-none"></i> {service.subtitle}
+              </span>
+            )}
+
+
             <h3 className="fw-bold">{service.heading}</h3>
             <p className="text-muted">{service.text}</p>
             <a href="#explore" className="btn btn-dark rounded-pill px-4">

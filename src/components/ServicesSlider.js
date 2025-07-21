@@ -14,34 +14,58 @@ export default function ServicesSlider() {
 
   const services = [
     {
-      title: 'Market research',
-      subtitle: 'COMPETITORS RESEARCH',
-      shortdesc: 'We provide comprehensive market research services to help you understand your industry and competitors.',
-      tag: 'FLEXIBLE',
+      title: 'Strategic GEO Audits',
+      subtitle: '',
+      shortdesc: 'Comprehensive AI-readiness scans of your digital ecosystem.',
+      tag: '',
       image: '/img/slider-img-03.jpg',
       link: '#',
     },
     {
-      title: 'Business consulting',
-      subtitle: 'TARGETED GROWTH',
-      shortdesc: 'We provide comprehensive market research services to help you understand your industry and competitors.',
-      tag: 'DISCOVER',
+      title: 'Local GEO Optimization',
+      subtitle: '',
+      shortdesc: 'Making your brand discoverable in location-intent queries and map-based AI results.',
+      tag: '',
       image: '/img/slider-img-03.jpg',
       link: '#',
     },
     {
-      title: 'Audience analysis',
-      subtitle: 'COMPETITORS RESEARCH',
-      shortdesc: 'We provide comprehensive market research services to help you understand your industry and competitors.',
-      tag: 'MODERN',
+      title: 'Generative Product SEO',
+      subtitle: '',
+      shortdesc: 'Engineered for marketplaces and eCommerce platforms, optimized for voice and snippet exposure.',
+      tag: '',
       image: '/img/slider-img-03.jpg',
       link: '#',
     },
     {
-      title: 'Business planning',
-      subtitle: 'INNOVATIVE SOLUTIONS',
-      shortdesc: 'We provide comprehensive market research services to help you understand your industry and competitors.',
-      tag: 'CREATIVITY',
+      title: 'GEO for Enterprise & SaaS',
+      subtitle: '',
+      shortdesc: 'Structured data frameworks and generative UX mapping for B2B buyers and CXOs.',
+      tag: '',
+      image: '/img/slider-img-03.jpg',
+      link: '#',
+    },
+      {
+      title: 'AI-Centric Copywriting:',
+      subtitle: '',
+      shortdesc: 'Microcopy, answers, and narratives tailored for generative training datasets.',
+      tag: '',
+      image: '/img/slider-img-03.jpg',
+      link: '#',
+    },
+      {
+      title: 'Technical GEO Engineering',
+      subtitle: '',
+      shortdesc: 'Performance-layer upgrades, schema injection, and crawl simulation for AI engines.',
+      tag: '',
+      image: '/img/slider-img-03.jpg',
+      link: '#',
+    },
+     {
+      title: 'Workshops & Team Enablement',
+      subtitle: '',
+      shortdesc: 'GEO onboarding for CMOs, content heads, and in-house teams.',
+      tag: '',
       image: '/img/slider-img-03.jpg',
       link: '#',
     },
@@ -84,8 +108,7 @@ export default function ServicesSlider() {
             </div>
           </div>
           <p className="text-white" style={{ maxWidth: '500px' }}>
-            We strive to develop real-world web solutions that are ideal for small to large projects
-            with bespoke your custom project requirements.
+            
           </p>
         </div>
 
@@ -123,25 +146,28 @@ export default function ServicesSlider() {
                         style={{ height: '350px', objectFit: 'cover' }}
                       />
                     </div>
-                    <div className="col-md-6 px-3 m-center">
-                      {service.tag && (
-                        <span className="badge bg-white text-dark shadow-sm px-3 py-2 my-3 fw-semibold rounded-pill">
-                          {service.tag}
-                        </span>
-                      )}
+                    <div className="col-md-6 px-3 px-md-4 m-center d-flex align-items-center justify-content-center">
+                      <div>
+                        {service.tag && (
+                          <span className="badge bg-white text-dark shadow-sm px-3 py-2 my-3 fw-semibold rounded-pill">
+                            {service.tag}
+                          </span>
+                        )}
 
-                      <h2 className="fw-bold fs-3 mb-1 text-dark text-uppercase m-center">
-                        {service.title.split(' ')[0]}{' '}
-                        <span className="text-dark fw-bold">{service.title.split(' ').slice(1).join(' ')}</span>
-                      </h2>
+                        <h2 className="fw-bold fs-4  mb-1 text-dark text-uppercase m-center">
+                          {service.title.split(' ')[0]}{' '}
+                          <span className="text-dark fw-bold">{service.title.split(' ').slice(1).join(' ')}</span>
+                        </h2>
 
-                      <p className="text-muted fs-5 mb-3  m-center">{service.subtitle}</p>
-                      <p className="text-dark mb-3  m-center">{service.shortdesc}</p>
-                      <div className="m-center">
-                        <a href="#" className="btn btn-dark rounded-pill px-4 my-3 ">
-                          Read more <span className="ms-2">&rarr;</span>
-                        </a>
+                        <p className="text-muted fs-5 mb-3  m-center">{service.subtitle}</p>
+                        <p className="text-dark mb-3  m-center">{service.shortdesc}</p>
+                        <div className="m-center">
+                          <a href="#" className="btn btn-dark rounded-pill px-4 my-3 ">
+                            Read more <span className="ms-2">&rarr;</span>
+                          </a>
+                        </div>
                       </div>
+
                     </div>
 
                   </div>

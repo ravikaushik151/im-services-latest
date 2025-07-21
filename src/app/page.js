@@ -22,7 +22,11 @@ export default function ServicePage({ params }) {
               <div>
                 <p className="text-uppercase text-muted small mb-0">About</p>
                 <h2 className="fw-bold text-uppercase  mb-3">{about.title}</h2>
-                <p>{about.text}</p>
+                <div
+                  dangerouslySetInnerHTML={{
+                    __html: `${about.text} `,
+                  }}
+                />
                 <a href="#get-started" className="btn btn-dark fs-6 btn-lg mt-4 rounded-pill px-4 mb-0">
                   GET STARTED NOW <i className="bi bi-arrow-right ms-2"></i>
                 </a>
@@ -56,12 +60,12 @@ export default function ServicePage({ params }) {
         </div>
       </section>
 
-    <ServiceTabs services={homeData.serviceTabs} />
+      <ServiceTabs services={homeData.serviceTabs} />
       <VideoSection />
       <ServicesSlider />
       <BlogCards />
       <FaqSection />
-     
+
     </>
   );
 }

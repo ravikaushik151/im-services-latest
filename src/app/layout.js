@@ -13,7 +13,7 @@ import BootstrapClient from '@/components/BootstrapClient';
 
 export const metadata = {
   title: "GEO Agency in Bangalore | Power Your Brand with AI Search",
-  description: "angalore's Premier GEO Agency - AI-Powered Brand Growth",
+  description: "Bangalore's Premier GEO Agency - AI-Powered Brand Growth",
 };
 
 export default function RootLayout({ children }) {
