@@ -2,20 +2,20 @@
 export const blogPosts = [
   {
     id: 1,
-    category: 'Service',
-    title: 'Build up healthy habits and strong peaceful life..',
+    category: '',
+    title: 'GEO Is the New SEO: Why Brands Must Adapt to Generative Discovery in 2025',
     image: '/img/blog1.jpg',
   },
   {
     id: 2,
-    category: 'Service',
-    title: 'How to bring the season into your great marketing..',
+    category: '',
+    title: '"Inside Google SGE and ChatGPT Search: How GEO Is Changing the Digital Game',
     image: '/img/blog1.jpg',
   },
   {
     id: 3,
-    category: 'Service',
-    title: "Be the strong willed one the public relationship..",
+    category: '',
+    title: "How to Build an AI-Friendly Content Hub for Better GEO Rankings",
     image: '/img/blog1.jpg',
   },
 ];

@@ -32,8 +32,10 @@ export default function BlogCards() {
                 />
 
                 <div className="blog-card-overlay"></div>
-
-                <div className="blog-card-tag">{post.category}</div>
+                {post.category && (
+                  <div className="blog-card-tag">{post.category}</div>
+                )}
+          
 
                 <div className="blog-card-title">
                   <Link href={`/blog/${post.id}`} className="text-white text-decoration-none">

@@ -100,22 +100,22 @@ Our end-to-end GEO approach transforms static content into dynamic, AI-readable 
   },
   blogPosts: [
     {
-      id: 'branding-strategies',
-      title: 'Top Branding Strategies for Startups in 2025',
+      id: 'why-brands-must-adapt-to-generative-discovery-in-2025',
+      title: 'GEO Is the New SEO: Why Brands Must Adapt to Generative Discovery in 2025',
       image: '/img/blog1.jpg',
-      category: 'Branding',
+      category: '',
     },
     {
-      id: 'marketing-trends',
-      title: 'What’s Hot in Digital Marketing Right Now',
+      id: 'how-geo-is-changing-the-digital-game',
+      title: 'Inside Google SGE and ChatGPT Search: How GEO Is Changing the Digital Game',
       image: '/img/blog1.jpg',
-      category: 'Marketing',
+      category: '',
     },
     {
-      id: 'design-principles',
-      title: 'Creative Design Principles for Modern Agencies',
+      id: 'how-to-build-an-ai-friendly-content-hub-for-better-geo-rankings',
+      title: 'How to Build an AI-Friendly Content Hub for Better GEO Rankings',
       image: '/img/blog1.jpg',
-      category: 'Design',
+      category: '',
     },
   ],
   faqs: [
