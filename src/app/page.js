@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from "next/link";
 import homeData from '@/data/home';
 import HeroSlider from '@/components/HeroSection';
 import ServiceTabs from '@/components/ServiceTabs';
@@ -27,9 +28,9 @@ export default function ServicePage({ params }) {
                     __html: `${about.text} `,
                   }}
                 />
-                <a href="#get-started" className="btn btn-dark fs-6 btn-lg mt-4 rounded-pill px-4 mb-0">
+                <Link href="#get-started" className="btn btn-dark fs-6 btn-lg mt-4 rounded-pill px-4 mb-0">
                   GET STARTED NOW <i className="bi bi-arrow-right ms-2"></i>
-                </a>
+                </Link>
               </div>
             </div>
 

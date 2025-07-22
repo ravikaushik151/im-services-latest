@@ -7,6 +7,7 @@ import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import '../app/styles/serviceslider.css';
+import Link from 'next/link';
 
 export default function ServicesSlider({ services }) {
   const prevRef = useRef(null);
@@ -98,9 +99,11 @@ export default function ServicesSlider({ services }) {
                         <p className="text-dark fs-6 mb-3">{service.subtitle}</p>
                         <p className="text-dark mb-3">{service.shortdesc}</p>
                         <div>
-                          <a href={service.link} className="btn btn-dark rounded-pill px-4 my-3">
-                            Read more <span className="ms-2">&rarr;</span>
-                          </a>
+                          {service.link ? (
+                            <Link href={service.link} className="btn btn-dark rounded-pill px-4 my-3">
+                              Read more <span className="ms-2">&rarr;</span>
+                            </Link>
+                          ) : null}
                         </div>
                       </div>
                     </div>
@@ -115,9 +118,9 @@ export default function ServicesSlider({ services }) {
           <i className="bi bi-envelope me-2 fs-4"></i>
           <span className="fs-5">
             Save your precious time and effort spent for finding a solution.
-            <a href="#contact" className="text-white ms-1 text-decoration-none fw-bold">
+            <Link href="#contact" className="text-white ms-1 text-decoration-none fw-bold">
               Contact us now
-            </a>
+            </Link>
           </span>
         </div>
       </div>

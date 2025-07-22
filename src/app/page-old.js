@@ -1,5 +1,6 @@
 
 import Image from "next/image";
+import Link from "next/link";
 import styles from "./page.module.css";
 import SwiperCarousel from '@/components/SwiperCarousel';
 import HomeTopSection from '@/components/HomeTopSection';
@@ -55,9 +56,9 @@ export default function Home() {
                   Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar.
                   Mattis pellentesque id nibh tortor.
                 </p>
-                <a href="#get-started" className="btn btn-dark btn-lg mt-4 rounded-pill px-4 mb-0">
+                <Link href="#get-started" className="btn btn-dark btn-lg mt-4 rounded-pill px-4 mb-0">
                   GET STARTED NOW <i className="bi bi-arrow-right ms-2"></i>
-                </a>
+                </Link>
               </div>
 
 
@@ -408,9 +409,9 @@ export default function Home() {
               <div className="card h-100 border-0">
                 <img src="/img/abstruct.jpg" className="card-img-top" alt="3D Design 1" />
                 <div className="card-body text-start px-2">
-                  <a href="#" className="text-decoration-underline text-muted small">Design &amp; Branding Insight</a>
+                  <Link href="#" className="text-decoration-underline text-muted small">Design &amp; Branding Insight</Link>
                   <h5 className="card-title fw-bold mt-2">
-                    <a href="#" className="text-dark text-decoration-none">How 3D Design is Shaping Modern Branding</a>
+                    <Link href="#" className="text-dark text-decoration-none">How 3D Design is Shaping Modern Branding</Link>
                   </h5>
                   <p className="card-text">In today’s digital world, 3D design is transforming the way brands connect with their audiences.</p>
                 </div>
@@ -422,9 +423,9 @@ export default function Home() {
               <div className="card h-100 border-0">
                 <img src="/img/abstruct.jpg" className="card-img-top" alt="3D Design 2" />
                 <div className="card-body text-start px-2">
-                  <a href="#" className="text-decoration-underline text-muted small">Design &amp; Branding Insight</a>
+                  <Link href="#" className="text-decoration-underline text-muted small">Design &amp; Branding Insight</Link>
                   <h5 className="card-title fw-bold mt-2">
-                    <a href="#" className="text-dark text-decoration-none">How 3D Design is Shaping Modern Branding</a>
+                    <Link href="#" className="text-dark text-decoration-none">How 3D Design is Shaping Modern Branding</Link>
                   </h5>
                   <p className="card-text">In today’s digital world, 3D design is transforming the way brands connect with their audiences.</p>
                 </div>
@@ -436,9 +437,9 @@ export default function Home() {
               <div className="card h-100 border-0">
                 <img src="/img/abstruct.jpg" className="card-img-top" alt="3D Design 3" />
                 <div className="card-body text-start px-2">
-                  <a href="#" className="text-decoration-underline text-muted small">Design &amp; Branding Insight</a>
+                  <Link href="#" className="text-decoration-underline text-muted small">Design &amp; Branding Insight</Link>
                   <h5 className="card-title fw-bold mt-2">
-                    <a href="#" className="text-dark text-decoration-none">How 3D Design is Shaping Modern Branding</a>
+                    <Link href="#" className="text-dark text-decoration-none">How 3D Design is Shaping Modern Branding</Link>
                   </h5>
                   <p className="card-text">In today’s digital world, 3D design is transforming the way brands connect with their audiences.</p>
                 </div>

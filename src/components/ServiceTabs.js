@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function ServiceTabs({ services }) {
   const [activeTab, setActiveTab] = useState(0);
@@ -58,9 +59,9 @@ export default function ServiceTabs({ services }) {
 
             <h3 className="fw-bold">{service.heading}</h3>
             <p className="text-muted">{service.text}</p>
-            <a href="#explore" className="btn btn-dark rounded-pill px-4">
+            <Link href="#explore" className="btn btn-dark rounded-pill px-4">
               EXPLORE NOW
-            </a>
+            </Link>
           </div>
         </div>
       </div>

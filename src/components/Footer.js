@@ -51,9 +51,9 @@ export default function Footer() {
                 <Link href="/" className="btn btn-danger rounded-pill me-3 mb-3">
                   <i className="bi bi-envelope-fill me-1"></i> Free consultation
                 </Link>
-                <a href="tel:+918880564488" className="btn btn-outline-light rounded-pill me-3 mb-3 d-none">
+                <Link href="tel:+918880564488" className="btn btn-outline-light rounded-pill me-3 mb-3 d-none">
                   <i className="bi bi-telephone-fill me-1"></i> +91 888 056 4488
-                </a>
+                </Link>
               </div>
 
             </div>
@@ -81,15 +81,15 @@ export default function Footer() {
 
 
 
-                  <a href="mailto:info@imsolutions.mobi" className="text-white mb-md-0 my-1 d-block fs-5 text-center text-decoration-none"> <i className="bi bi-envelope-open"></i> info@imsolutions.mobi</a>
+                  <Link href="mailto:info@imsolutions.mobi" className="text-white mb-md-0 my-1 d-block fs-5 text-center text-decoration-none"> <i className="bi bi-envelope-open"></i> info@imsolutions.mobi</Link>
 
-                  <a href="tel:+918880564488" className="text-white  mb-md-0 my-1 d-block  fs-5 text-center text-decoration-none"> <i className="bi bi-telephone"></i> +91 888 056 4488</a>
+                  <Link href="tel:+918880564488" className="text-white  mb-md-0 my-1 d-block  fs-5 text-center text-decoration-none"> <i className="bi bi-telephone"></i> +91 888 056 4488</Link>
                   <div className="d-flex gap-3 mt-3  fs-5 align-items-md-start align-items-center justify-content-center ">
                     Follow Us :
-                    <a href="#" className="text-white"><i className="bi bi-facebook"></i></a>
+                    <Link href="#" className="text-white"><i className="bi bi-facebook"></i></Link>
 
-                    <a href="#" className="text-white"><i className="bi bi-twitter-x"></i></a>
-                    <a href="#" className="text-white"><i className="bi bi-linkedin"></i></a>
+                    <Link href="#" className="text-white"><i className="bi bi-twitter-x"></i></Link>
+                    <Link href="#" className="text-white"><i className="bi bi-linkedin"></i></Link>
                   </div>
                 </div>
 
@@ -125,30 +125,9 @@ export default function Footer() {
               </ul>
             </div>
 
-            {/* 
-          <div className="col-md-2 m-center">
-            <h6 className="fw-bold text-white mb-3">Get in touch</h6>
-            <p className="text-white small mb-1">Need support?</p>
-            <a href="mailto:info@imsolutions.mobi" className="text-white small d-block">info@imsolutions.mobi</a>
-            <p className="text-white small mt-2 mb-1">Customer care?</p>
-            <a href="tel:+918880564488" className="text-white small d-block">+91 888 056 4488</a>
-          </div>
- */}
+         
 
-            {/* <div className="col-md-3 m-center">
-            <h6 className="fw-bold text-white mb-3">Subscribe to newsletter</h6>
-            <p className="text-white small">Enter your email and we contact you!</p>
-            <div className="input-group mt-2">
-              <input
-                type="email"
-                className="form-control form-control-sm"
-                placeholder="Enter your email"
-              />
-              <span className="input-group-text">
-                <i className="bi bi-envelope-fill"></i>
-              </span>
-            </div>
-          </div> */}
+           
             <div className='col-md-6'>
               <div className="row px-md-3 px-3">
 

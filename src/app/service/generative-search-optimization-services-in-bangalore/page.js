@@ -7,6 +7,7 @@ import ServicesSlider from '@/components/ServicesSlider';
 import BlogCards from '@/components/BlogCards';
 import FaqSection from '@/components/FaqSection';
 import ContactForm from '@/components/ContactForm';
+import Link from "next/link";
 import AnimatedHeadlineSection from '@/components/AnimatedHeadlineSection';
 export default function ServicePage({ params }) {
   const { heroSlides, about } = homeData;
@@ -27,9 +28,9 @@ export default function ServicePage({ params }) {
                     __html: `${about.text} `,
                   }}
                 />
-                <a href="#get-started" className="btn btn-dark fs-6 btn-lg mt-4 rounded-pill px-4 mb-0">
+                <Link href="#get-started" className="btn btn-dark fs-6 btn-lg mt-4 rounded-pill px-4 mb-0">
                   GET STARTED NOW <i className="bi bi-arrow-right ms-2"></i>
-                </a>
+                </Link>
               </div>
             </div>
 

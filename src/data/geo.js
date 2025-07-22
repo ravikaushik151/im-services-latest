@@ -159,13 +159,13 @@ const homeData = {
       answer:
         "No. GEO complements and amplifies SEO performance by extending your content’s relevance to AI interfaces. It enhances, rather than replaces, traditional optimization.",
     },
-        {
+    {
       question:
         "Q7. Is GEO cost-effective for startups or small businesses?",
       answer:
         "Absolutely. GEO offers exponential ROI when smaller brands outpace larger competitors in emerging generative engines by being quicker to adapt and appear in AI summaries.",
     },
-        {
+    {
       question:
         "Q8. What tools do top GEO agencies in India use?",
       answer:
@@ -179,42 +179,49 @@ const homeData = {
       subtitle: ' Multi-platform visibility planning for brands scaling across AI-first markets.',
       tag: '',
       image: '/img/slider-img-03.jpg',
+      link: 'service'
     },
     {
       title: 'GEO Copywriting & NLP Content',
       subtitle: 'Conversational copy and long-form content built to rank and respond.',
       tag: '',
       image: '/img/slider-img-03.jpg',
+      link: 'service'
     },
     {
       title: 'GEO for Local & Hyperlocal Discovery',
       subtitle: 'Make your brand voice-search-ready and location-intelligent.',
       tag: '',
       image: '/img/slider-img-03.jpg',
+      link: 'service'
     },
     {
       title: 'GEO for eCommerce & Product Visibility',
       subtitle: 'Optimize product metadata and AI-accessible microcopy.',
       tag: '',
       image: '/img/slider-img-03.jpg',
+      link: 'service'
     },
     {
       title: 'Technical GEO Integration',
       subtitle: 'Schema, crawl flow, site speed, and AI response mapping.',
       tag: '',
       image: '/img/slider-img-03.jpg',
+      link: 'service'
     },
     {
       title: 'GEO Workshops & Leadership Sprints',
       subtitle: 'Executive-level learning programs tailored for CMOs and digital heads.',
       tag: '',
       image: '/img/slider-img-03.jpg',
+      link: 'service'
     },
     {
       title: 'Workshops & Team Enablement',
       subtitle: 'GEO onboarding for CMOs, content heads, and in-house teams.',
       tag: '',
       image: '/img/slider-img-03.jpg',
+      link: 'service'
     },
   ]
 };
