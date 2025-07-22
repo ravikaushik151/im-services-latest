@@ -7,7 +7,7 @@ import ServicesSlider from '@/components/ServicesSlider';
 import BlogCards from '@/components/BlogCards';
 import FaqSection from '@/components/FaqSection';
 import ContactForm from '@/components/ContactForm';
-
+import AnimatedHeadlineSection from '@/components/AnimatedHeadlineSection';
 export default function ServicePage({ params }) {
   const { heroSlides, about } = homeData;
 
@@ -62,10 +62,13 @@ export default function ServicePage({ params }) {
 
       <ServiceTabs services={homeData.serviceTabs} />
       <VideoSection />
-      <ServicesSlider />
-      <BlogCards />
-      <FaqSection />
-
+      <ServicesSlider services={homeData.services} />
+      <BlogCards posts={homeData.blogPosts} />
+      <FaqSection faqs={homeData.faqs} />
+      <AnimatedHeadlineSection
+        background="/img/slider2.jpg"
+        headline="Your audience is already asking AI. Is your brand the answer?"
+      />
     </>
   );
 }

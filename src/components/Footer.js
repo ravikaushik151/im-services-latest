@@ -26,49 +26,7 @@ export default function Footer() {
 
   return (
     <>
-      <section
-        className="position-relative bg-white text-white   my-0 "
-        data-aos="fade-up"
-        data-aos-duration="1000"
-        style={{
-          backgroundImage: `url('/img/slider2.jpg')`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
-          padding: '60px 0'
-        }}
-      >
-        {/* Overlay */}
-        <div
-          className="position-absolute top-0 start-0 w-100 h-100"
-          style={{
-            backgroundColor: 'rgba(0, 0, 0, 0.5)',
-            zIndex: 1
-          }}
-        ></div>
-
-        {/* Content */}
-        <div className="container position-relative" style={{ zIndex: 2 }}>
-          <div className="row justify-content-center">
-            <div className="col-md-12 text-center">
-              <h2 className="fw-bold my-4 text-uppercase text-white text-center ">
-                <span data-aos="fade-right" data-aos-duration="300">Your</span>{' '}
-                <span data-aos="fade-right" data-aos-duration="600">audience</span>{' '}
-                <span data-aos="fade-right" data-aos-duration="900">is</span>{' '}
-                <span data-aos="fade-right" data-aos-duration="1200">already</span>{' '}
-                <span data-aos="fade-right" data-aos-duration="1500">asking</span>{' '}
-                <span data-aos="fade-right" data-aos-duration="1800">AI.</span>{' '}
-                <span data-aos="fade-right" data-aos-duration="2100">Is</span>{' '}
-                <span data-aos="fade-right" data-aos-duration="2400">your</span>{' '}
-                <span data-aos="fade-right" data-aos-duration="2700">brand</span>{' '}
-                <span data-aos="fade-right" data-aos-duration="3000">the</span>{' '}
-                <span data-aos="fade-right" data-aos-duration="3300">answer?</span>
-              </h2>
-
-            </div>
-          </div>
-        </div>
-      </section>
+    
 
       <footer className=" text-light mt-0 pt-5 pb-3" style={{
         backgroundImage: `url('/img/bg-01.png')`,

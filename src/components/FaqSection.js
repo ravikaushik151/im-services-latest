@@ -2,10 +2,9 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import { faqs } from '../data/faqs';
 import '../app/styles/faq.css';
 
-export default function FaqSection() {
+export default function FaqSection({ faqs }) {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const toggleIndex = (index) => {
@@ -13,9 +12,12 @@ export default function FaqSection() {
   };
 
   return (
-    <section className="faq-section  position-relative section overflow-hidden" data-aos="fade-up"
-      data-aos-duration="1500">
-      {/* Background icon OUTSIDE the container */}
+    <section
+      className="faq-section position-relative section overflow-hidden"
+      data-aos="fade-up"
+      data-aos-duration="1500"
+    >
+      {/* Background icon */}
       <Image
         src="/img/faq.webp"
         alt="FAQ Icon"
@@ -25,12 +27,11 @@ export default function FaqSection() {
       />
 
       <div className="container bg-light rounded-4 p-md-5 px-3 position-relative z-1">
-        <p className="text-uppercase fw-bold  mb-1">
-          
+        <p className="text-uppercase fw-bold mb-1">
           <span className="text-muted">Basic </span>
           <span className="text-primary">Information</span>
         </p>
-        <h2 className="fw-bold mb-4 text-uppercase ">Frequently asked questions</h2>
+        <h2 className="fw-bold mb-4 text-uppercase">Frequently asked questions</h2>
 
         <div className="accordion border-top">
           {faqs.map((item, index) => (
