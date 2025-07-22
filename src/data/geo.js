@@ -48,7 +48,7 @@ const homeData = {
   serviceTabs: [
     {
       id: 1,
-      title: 'Content Regeneration',
+      title: 'AI Answering',
       icon: 'bi-briefcase',
       image: '/img/abstruct.jpg',
       heading: 'Conversational Content Engineering',
@@ -57,7 +57,7 @@ const homeData = {
     },
     {
       id: 2,
-      title: 'Intent Intelligence',
+      title: 'Voice Triggers',
       icon: 'bi-journal-text',
       image: '/img/abstruct.jpg',
       heading: 'Voice & Prompt Optimization',
@@ -66,7 +66,7 @@ const homeData = {
     },
     {
       id: 3,
-      title: 'AI-Optimized FAQs',
+      title: 'Zero-Click SEO',
       icon: 'bi-compass',
       image: '/img/abstruct.jpg',
       heading: 'Zero-Click SERP Strategy',
@@ -75,7 +75,7 @@ const homeData = {
     },
     {
       id: 4,
-      title: 'Structured Data Boost',
+      title: 'Schema Boost',
       icon: 'bi-globe',
       image: '/img/abstruct.jpg',
       heading: 'Structured Data Enhancement',
@@ -84,7 +84,7 @@ const homeData = {
     },
     {
       id: 5,
-      title: 'Conversational Identity',
+      title: 'Intent Mapping',
       icon: 'bi-people',
       image: '/img/abstruct.jpg',
       heading: 'Generative Intent Mapping',
@@ -93,7 +93,7 @@ const homeData = {
     },
     {
       id: 6,
-      title: 'Clustered Content Strategy',
+      title: 'Content Sync',
       icon: 'bi-bullseye',
       image: '/img/abstruct.jpg',
       heading: 'Cross-Engine Consistency',
