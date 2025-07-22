@@ -25,78 +25,123 @@ export default function Footer() {
   };
 
   return (
-    <footer className=" text-light pt-5 pb-3" style={{
-      backgroundImage: `url('/img/bg-01.png')`,
-      backgroundRepeat: 'no-repeat',
-      backgroundPosition: 'left center',
-      backgroundColor: '#000', // fallback dark navy
-      backgroundSize: 'contain',
-    }}>
-      {/* Call to Action */}
-      <div className="container pb-4 border-bottom border-secondary text-center text-md-start" data-aos="fade-up"
-        data-aos-duration="1200">
-        <div className="row align-items-center">
-          <div className="col-md-6 mb-3 mb-md-0 d-flex align-items-center justify-content-center justify-content-md-start">
-            <div>
-              <h2 className="fw-bold text-white text-uppercase ">Get a consultation services.</h2>
-              <p className="text-white text-uppercase ">We will take care of your business accounting services.</p>
-            </div>
+    <>
+      <section
+        className="position-relative bg-white text-white   my-0 "
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        style={{
+          backgroundImage: `url('/img/slider2.jpg')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          padding: '60px 0'
+        }}
+      >
+        {/* Overlay */}
+        <div
+          className="position-absolute top-0 start-0 w-100 h-100"
+          style={{
+            backgroundColor: 'rgba(0, 0, 0, 0.5)',
+            zIndex: 1
+          }}
+        ></div>
 
-          </div>
-          <div className="col-md-6 text-md-end d-flex align-items-center justify-content-center justify-content-md-end">
-            <div>
-              <Link href="/" className="btn btn-danger rounded-pill me-3 mb-3">
-                <i className="bi bi-envelope-fill me-1"></i> Free consultation
-              </Link>
-              <a href="tel:+918880564488" className="btn btn-outline-light rounded-pill me-3 mb-3">
-                <i className="bi bi-telephone-fill me-1"></i> +91 888 056 4488
-              </a>
-            </div>
+        {/* Content */}
+        <div className="container position-relative" style={{ zIndex: 2 }}>
+          <div className="row justify-content-center">
+            <div className="col-md-12 text-center">
+              <h2 className="fw-bold my-4 text-uppercase text-white text-center ">
+                <span data-aos="fade-right" data-aos-duration="300">Your</span>{' '}
+                <span data-aos="fade-right" data-aos-duration="600">audience</span>{' '}
+                <span data-aos="fade-right" data-aos-duration="900">is</span>{' '}
+                <span data-aos="fade-right" data-aos-duration="1200">already</span>{' '}
+                <span data-aos="fade-right" data-aos-duration="1500">asking</span>{' '}
+                <span data-aos="fade-right" data-aos-duration="1800">AI.</span>{' '}
+                <span data-aos="fade-right" data-aos-duration="2100">Is</span>{' '}
+                <span data-aos="fade-right" data-aos-duration="2400">your</span>{' '}
+                <span data-aos="fade-right" data-aos-duration="2700">brand</span>{' '}
+                <span data-aos="fade-right" data-aos-duration="3000">the</span>{' '}
+                <span data-aos="fade-right" data-aos-duration="3300">answer?</span>
+              </h2>
 
+            </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      {/* Footer Content */}
-      <div className="container mt-5" data-aos="fade-up"
-        data-aos-duration="1400">
-        <div className="row gy-4">
-          {/* Logo & Social */}
-          <div className="col-md-3  col-12 m-center ">
-            <div className="d-flex  justify-content-center align-items-center  ">
+      <footer className=" text-light mt-0 pt-5 pb-3" style={{
+        backgroundImage: `url('/img/bg-01.png')`,
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'left center',
+        backgroundColor: '#000', // fallback dark navy
+        backgroundSize: 'contain',
+      }}>
+        {/* Call to Action */}
+        <div className="container pb-4 border-bottom border-secondary text-center text-md-start d-none" data-aos="fade-up"
+          data-aos-duration="1200">
+          <div className="row align-items-center ">
+            <div className="col-md-6 mb-3 mb-md-0 d-flex align-items-center justify-content-center justify-content-md-start">
               <div>
-                <h6 className="fw-bold text-white mb-md-5 mb-4 text-center">Powered By</h6>
-                <Image
-                  src="/img/weblogo.png" // Update this path to your actual logo file
-                  alt="Logo"
-                  width={100}
-                  height={40}
-                  className="d-block mx-auto img-fluid mb-3 "
-                />
-
-                <p className="text-white small m-center text-center">
-                  Lorem ipsum amet adipiscing elit to eiusmod ad tempor  Lorem ipsum amet adipiscing elit to eiusmod ad tempor  Lorem ipsum amet adipiscing elit to eiusmod ad tempor Lorem ipsum amet adipiscing elit to eiusmod ad tempor.
-                </p>
-
-                <a href="mailto:info@imsolutions.mobi" className="text-white mb-md-0 my-1 d-block fs-5 text-center text-decoration-none"> <i className="bi bi-envelope-open"></i> info@imsolutions.mobi</a>
-
-                <a href="tel:+918880564488" className="text-white  mb-md-0 my-1 d-block  fs-5 text-center text-decoration-none"> <i className="bi bi-telephone"></i> +91 888 056 4488</a>
-                <div className="d-flex gap-3 mt-3  fs-5 align-items-md-start align-items-center justify-content-center ">
-                  FOLLOW US :
-                  <a href="#" className="text-white"><i className="bi bi-facebook"></i></a>
-                  <a href="#" className="text-white"><i className="bi bi-dribbble"></i></a>
-                  <a href="#" className="text-white"><i className="bi bi-twitter"></i></a>
-                  <a href="#" className="text-white"><i className="bi bi-instagram"></i></a>
-                </div>
+                <h2 className="fw-bold text-white text-uppercase ">Get a GEO Consultation</h2>
+                <p className="text-white text-uppercase "> We optimize your brand for AI-driven discovery platforms.</p>
               </div>
 
+            </div>
+            <div className="col-md-6 text-md-end d-flex align-items-center justify-content-center justify-content-md-end">
+              <div>
+                <Link href="/" className="btn btn-danger rounded-pill me-3 mb-3">
+                  <i className="bi bi-envelope-fill me-1"></i> Free consultation
+                </Link>
+                <a href="tel:+918880564488" className="btn btn-outline-light rounded-pill me-3 mb-3 d-none">
+                  <i className="bi bi-telephone-fill me-1"></i> +91 888 056 4488
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        {/* Footer Content */}
+        <div className="container mt-5" data-aos="fade-up"
+          data-aos-duration="1400">
+
+          <div className="row gy-4">
+            {/* Logo & Social */}
+            <div className="col-md-3  col-12 m-center ">
+              <div className="d-flex  justify-content-center align-items-center  ">
+                <div>
+                  <h6 className="fw-bold text-white mb-md-5 mb-4 text-center">Powered By</h6>
+                  <Image
+                    src="/img/weblogo.png" // Update this path to your actual logo file
+                    alt="Logo"
+                    width={100}
+                    height={40}
+                    className="d-block mx-auto img-fluid mt-3 mb-3 mt-md-5 "
+                  />
+
+
+
+                  <a href="mailto:info@imsolutions.mobi" className="text-white mb-md-0 my-1 d-block fs-5 text-center text-decoration-none"> <i className="bi bi-envelope-open"></i> info@imsolutions.mobi</a>
+
+                  <a href="tel:+918880564488" className="text-white  mb-md-0 my-1 d-block  fs-5 text-center text-decoration-none"> <i className="bi bi-telephone"></i> +91 888 056 4488</a>
+                  <div className="d-flex gap-3 mt-3  fs-5 align-items-md-start align-items-center justify-content-center ">
+                    Follow Us :
+                    <a href="#" className="text-white"><i className="bi bi-facebook"></i></a>
+
+                    <a href="#" className="text-white"><i className="bi bi-twitter-x"></i></a>
+                    <a href="#" className="text-white"><i className="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+
+
+              </div>
 
             </div>
 
-          </div>
 
-
-          {/* <div className="col-md-2 col-12 ps-0 ps-md-5 m-center">
+            {/* <div className="col-md-2 col-12 ps-0 ps-md-5 m-center">
             <h6 className="fw-bold text-white mb-3 ">About</h6>
             <ul className="list-unstyled text-white small">
               <li className="py-2" ><Link href="/company" className="text-decoration-none text-white mb-3">Company</Link></li>
@@ -106,26 +151,24 @@ export default function Footer() {
             </ul>
           </div> */}
 
-          {/* Services */}
-          <div className="col-md-2 offset-md-1  col-12 ps-md-3 ps-0 m-center">
-            <h6 className="fw-bold text-white mb-md-4 mb-4">Quick Link</h6>
-            <ul className="list-unstyled text-white small">
-              <li className="py-2" ><Link href="/services/financial" className="text-decoration-none text-white mb-3">Financial Service</Link></li>
-              <li className="py-2" ><Link href="/services/investment" className="text-decoration-none text-white mb-3">Investment Service</Link></li>
-              <li className="py-2" ><Link href="/services/banking" className="text-decoration-none text-white mb-3">Banking Service</Link></li>
-              <li className="py-2" ><Link href="/services/consulting" className="text-decoration-none text-white mb-3">Consulting Service</Link></li>
-              <li className="py-2" ><Link href="/services/financial" className="text-decoration-none text-white mb-3">Financial Service</Link></li>
-              <li className="py-2" ><Link href="/services/investment" className="text-decoration-none text-white mb-3">Investment Service</Link></li>
-              <li className="py-2" ><Link href="/services/banking" className="text-decoration-none text-white mb-3">Banking Service</Link></li>
-              <li className="py-2" ><Link href="/services/consulting" className="text-decoration-none text-white mb-3">Consulting Service</Link></li>
-              <li className="py-2" ><Link href="/services/banking" className="text-decoration-none text-white mb-3">Banking Service</Link></li>
-              <li className="py-2" ><Link href="/services/consulting" className="text-decoration-none text-white mb-3">Consulting Service</Link></li>
-              <li className="py-2" ><Link href="/services/banking" className="text-decoration-none text-white mb-3">Banking Service</Link></li>
+            {/* Services */}
+            <div className="col-md-2 offset-md-1  col-12 ps-md-3 ps-0 m-center">
+              <h6 className="fw-bold text-white mb-md-4 mb-4">Quick Link</h6>
+              <ul className="list-unstyled text-white small">
+                <li className="py-2" ><Link href="/services/financial" className="text-decoration-none text-white mb-3">Financial Service</Link></li>
+                <li className="py-2" ><Link href="/services/investment" className="text-decoration-none text-white mb-3">Investment Service</Link></li>
+                <li className="py-2" ><Link href="/services/banking" className="text-decoration-none text-white mb-3">Banking Service</Link></li>
+                <li className="py-2" ><Link href="/services/consulting" className="text-decoration-none text-white mb-3">Consulting Service</Link></li>
+                <li className="py-2" ><Link href="/services/financial" className="text-decoration-none text-white mb-3">Financial Service</Link></li>
+                <li className="py-2" ><Link href="/services/investment" className="text-decoration-none text-white mb-3">Investment Service</Link></li>
+                <li className="py-2" ><Link href="/services/banking" className="text-decoration-none text-white mb-3">Banking Service</Link></li>
 
-            </ul>
-          </div>
 
-          {/* 
+
+              </ul>
+            </div>
+
+            {/* 
           <div className="col-md-2 m-center">
             <h6 className="fw-bold text-white mb-3">Get in touch</h6>
             <p className="text-white small mb-1">Need support?</p>
@@ -135,7 +178,7 @@ export default function Footer() {
           </div>
  */}
 
-          {/* <div className="col-md-3 m-center">
+            {/* <div className="col-md-3 m-center">
             <h6 className="fw-bold text-white mb-3">Subscribe to newsletter</h6>
             <p className="text-white small">Enter your email and we contact you!</p>
             <div className="input-group mt-2">
@@ -149,125 +192,126 @@ export default function Footer() {
               </span>
             </div>
           </div> */}
-          <div className='col-md-6'>
-            <div className="row px-md-3 px-3">
+            <div className='col-md-6'>
+              <div className="row px-md-3 px-3">
 
 
-              <div className="col-md-12 d-block mx-auto shadow  text-white rounded-4" >
+                <div className="col-md-12 d-block mx-auto shadow  text-white rounded-4" >
 
 
-                <form onSubmit={handleSubmit} className="row g-3 px-3 rounded contact-form bg-transparent ">
-                  <h2 className="fw-bold mb-1 text-white">Let’s Elevate Your Retail Brand Experience</h2>
-                  <p className="mb-4 text-white">
-                    Partner with India's most trusted <em>retail branding consultant</em> to build memorable, high-performing retail spaces.
-                  </p>
+                  <form onSubmit={handleSubmit} className="row g-3 px-3 rounded contact-form bg-transparent ">
+                    <h2 className="fw-bold mb-0 text-white">Let’s Elevate Your GEO Presence.</h2>
+                    <p className="mb-2 text-white">
+                      Partner with India's leading <em>Generative Search Optimization experts</em> to future-proof your digital visibility.
+                    </p>
 
-                  <div className="col-md-6">
-                    <input
-                      type="text"
-                      className="form-control p-3"
-                      name="name"
-                      placeholder="Your Name"
-                      value={form.name}
-                      onChange={handleChange}
-                      required
-                    />
-                  </div>
+                    <div className="col-md-6">
+                      <input
+                        type="text"
+                        className="form-control p-3"
+                        name="name"
+                        placeholder="Your Name"
+                        value={form.name}
+                        onChange={handleChange}
+                        required
+                      />
+                    </div>
 
-                  <div className="col-md-6">
-                    <input
-                      type="email"
-                      className="form-control p-3"
-                      name="email"
-                      placeholder="Your Email"
-                      value={form.email}
-                      onChange={handleChange}
-                      required
-                    />
-                  </div>
+                    <div className="col-md-6">
+                      <input
+                        type="email"
+                        className="form-control p-3"
+                        name="email"
+                        placeholder="Your Email"
+                        value={form.email}
+                        onChange={handleChange}
+                        required
+                      />
+                    </div>
 
-                  <div className="col-md-6">
-                    <input
-                      type="text"
-                      className="form-control p-3"
-                      name="brand"
-                      placeholder="Brand Name"
-                      value={form.brand}
-                      onChange={handleChange}
-                      required
-                    />
-                  </div>
+                    <div className="col-md-6">
+                      <input
+                        type="text"
+                        className="form-control p-3"
+                        name="brand"
+                        placeholder="Brand Name"
+                        value={form.brand}
+                        onChange={handleChange}
+                        required
+                      />
+                    </div>
 
-                  <div className="col-md-6">
-                    <input
-                      type="tel"
-                      className="form-control p-3"
-                      name="phone"
-                      placeholder="Phone Number"
-                      value={form.phone}
-                      onChange={handleChange}
-                      required
-                    />
-                  </div>
+                    <div className="col-md-6">
+                      <input
+                        type="tel"
+                        className="form-control p-3"
+                        name="phone"
+                        placeholder="Phone Number"
+                        value={form.phone}
+                        onChange={handleChange}
+                        required
+                      />
+                    </div>
 
-                  <div className="col-12">
-                    <select
-                      className="form-select p-3"
-                      name="messageType"
-                      value={form.messageType}
-                      onChange={handleChange}
-                      required
-                    >
-                      <option value="">Select Message Type</option>
-                      <option value="Strategy">Strategy</option>
-                      <option value="Design">Design</option>
-                      <option value="Rollout">Rollout</option>
-                      <option value="Audit">Audit</option>
-                    </select>
-                  </div>
+                    <div className="col-12 d-none">
+                      <select
+                        className="form-select p-3"
+                        name="messageType"
+                        value={form.messageType}
+                        onChange={handleChange}
+                        required
+                      >
+                        <option value="">Select Message Type</option>
+                        <option value="Strategy">Strategy</option>
+                        <option value="Design">Design</option>
+                        <option value="Rollout">Rollout</option>
+                        <option value="Audit">Audit</option>
+                      </select>
+                    </div>
 
-                  <div className="col-12">
-                    <textarea
-                      className="form-control p-3 d-none"
-                      rows="1"
-                      placeholder="Your Message"
-                      name="message"
+                    <div className="col-12">
+                      <textarea
+                        className="form-control p-3 "
+                        rows="1"
+                        placeholder="Your Message"
+                        name="message"
 
-                      value={form.message}
-                      onChange={handleChange}
-                    ></textarea>
-                  </div>
+                        value={form.message}
+                        onChange={handleChange}
+                      ></textarea>
+                    </div>
 
-                  <div className="col-12">
-                    <button type="submit" className="btn btn-primary btn-lg w-100 d-flex justify-content-center align-items-center gap-2">
-                      Book A Free Retail Branding Session
-                      <span className="bg-white rounded-circle d-inline-flex align-items-center justify-content-center" style={{ width: '30px', height: '30px' }}>
-                        <i className="bi bi-arrow-right text-primary"></i>
-                      </span>
-                    </button>
-                  </div>
-                </form>
+                    <div className="col-12">
+                      <button type="submit" className="btn btn-primary btn-lg w-100 d-flex justify-content-center align-items-center gap-2">
+                        Book A Free Retail Branding Session
+                        <span className="bg-white rounded-circle d-inline-flex align-items-center justify-content-center" style={{ width: '30px', height: '30px' }}>
+                          <i className="bi bi-arrow-right text-primary"></i>
+                        </span>
+                      </button>
+                    </div>
+                  </form>
 
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      {/* Bottom Bar */}
-      <div className="container mt-md-4 pt-md-3 mt-3 mb-0 border-top border-secondary text-center text-muted small" >
-        <div className="row" >
-          <div className="col-md-6 text-md-start my-md-3 mt-3 mb-md-0 text-white"  >
-            <p >   © Copyright 2025 <Link href="/" className="text-decoration-none text-light">IM Solutions</Link></p>
+        {/* Bottom Bar */}
+        <div className="container mt-md-5 pt-md-3 mt-3 mb-0 border-top border-secondary text-center text-muted small" >
+          <div className="row" >
+            <div className="col-md-6 text-md-start my-md-3 mt-3 mb-md-0 text-white"  >
+              <p >   © Copyright 2025 <Link href="/" className="text-decoration-none text-light">IM Solutions</Link></p>
 
-          </div>
-          <div className="col-md-6 text-md-end my-md-3 mt-1 mb-md-0">
-            <Link href="/privacy-policy" className="text-light text-decoration-none me-3">Privacy policy</Link>
-            <Link href="/terms" className="text-light text-decoration-none me-3">Terms and conditions</Link>
-            <Link href="/copyright" className="text-light text-decoration-none">Copyright</Link>
+            </div>
+            <div className="col-md-6 text-md-end my-md-3 mt-1 mb-md-0">
+              <Link href="/privacy-policy" className="text-light text-decoration-none me-3">Privacy policy</Link>
+              <Link href="/terms" className="text-light text-decoration-none me-3">Terms and conditions</Link>
+              <Link href="/copyright" className="text-light text-decoration-none">Copyright</Link>
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </>
   );
 }

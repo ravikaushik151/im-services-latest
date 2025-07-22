@@ -8,6 +8,7 @@ export default function AOSProvider({ children }) {
     AOS.init({
       duration: 1000,
       once: false,
+      mirror: true,
     });
     AOS.refresh(); // Force refresh in case of dynamic content
   }, []);
