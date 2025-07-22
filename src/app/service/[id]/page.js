@@ -62,13 +62,13 @@ export default function ServicePage({ params }) {
 
       <ServiceTabs services={homeData.serviceTabs} />
       <VideoSection />
-     <ServicesSlider services={homeData.services} />
+      <ServicesSlider services={homeData.services} />
       <BlogCards posts={homeData.blogPosts} />
-           <FaqSection faqs={homeData.faqs} />
-<AnimatedHeadlineSection
-  background="/img/slider2.jpg"
-  headline="Partner with one of the top GEO agencies in India."
-/>
+      <FaqSection faqs={homeData.faqs} />
+      <AnimatedHeadlineSection
+        background="/img/slider2.jpg"
+        headline="Partner with one of the top GEO agencies in India."
+      />
     </>
   );
 }

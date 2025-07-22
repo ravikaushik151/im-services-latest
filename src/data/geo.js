@@ -128,48 +128,48 @@ const homeData = {
   ],
   faqs: [
     {
-      question: "Q1. What is Generative Search Optimization (GEO)? ",
+      question: "Q1. How does GEO influence brand credibility in AI-generated environments? ",
       answer:
-        "GEO is a content optimization framework that ensures your brand surfaces in generative platforms like ChatGPT, Google SGE, Bing CoPilot, and Gemini. It helps your answers become the answer.",
+        "GEO enables your brand to show up as a reliable, pre-vetted authority in AI-generated answers. This increases brand credibility because AI models only reference sources they trust. The more your brand is featured in ChatGPT, Google SGE, or Bing responses, the more top-of-mind you become.",
     },
     {
-      question: "Q2. How is GEO different from SEO? ",
+      question: "Q2. Can GEO improve performance on platforms like YouTube, Amazon, or LinkedIn? ",
       answer:
-        "SEO ranks you in results. GEO makes you the result. GEO prepares your content to be summarized, cited, or directly referenced in AI-generated responses.",
-    },
-    {
-      question:
-        "Q3. Why should I hire a GEO agency in India?  ",
-      answer:
-        "Partnering with a GEO agency in India like ours means gaining future-proof expertise, localized strategy, and world-class execution at global scale and speed.",
-    },
-    {
-      question: "Q4. What kind of results can GEO deliver?",
-      answer:
-        "Expect higher visibility in AI outputs, featured response inclusion, improved voice search traction, and increased high-intent inbound traffic.",
-    },
-    {
-      question: "Q5. How do we measure GEO success?",
-      answer:
-        "Through AI inclusion tracking, SERP-0 visibility, featured snippet capture, and generative search engine mentions across multiple platforms.",
+        "Yes. We apply GEO frameworks to video transcripts, alt text, product metadata, and social summaries—boosting discoverability across Amazon search, YouTube AI indexing, and LinkedIn AI features.",
     },
     {
       question:
-        "Q6. What makes IM Solutions the best GEO agency in Bangalore?",
+        "Q3. What industries benefit most from GEO? ",
       answer:
-        "Our hybrid of content intelligence, AI training logic, and enterprise-class delivery makes us the best generative search optimization agency in Bangalore, serving global brands from the heart of India's tech capital.",
+        "Sectors such as healthcare, SaaS, fintech, eCommerce, D2C, and education gain immense value from GEO, where authority, clarity, and trusted responses impact consumer behavior and search visibility.",
+    },
+    {
+      question: "Q4. How does GEO align with smart assistants and voice search?",
+      answer:
+        "Our GEO architecture structures your content in natural question-answer formats that are voice-search ready, making your brand the spoken answer in real-time AI environments.",
+    },
+    {
+      question: "Q5. Do generative search engines favor specific content structures?",
+      answer:
+        "Yes. Lists, FAQs, how-tos, and semantically tagged formats are preferred. We format your content into AI-friendly, scannable components that align with large language model (LLM) reading behavior.",
+    },
+    {
+      question:
+        "Q6. Will implementing GEO disrupt existing SEO foundations?",
+      answer:
+        "No. GEO complements and amplifies SEO performance by extending your content’s relevance to AI interfaces. It enhances, rather than replaces, traditional optimization.",
     },
         {
       question:
-        "Q7. How soon can we implement GEO on our site?",
+        "Q7. Is GEO cost-effective for startups or small businesses?",
       answer:
-        "Most projects start seeing AI-oriented placement and snippet responses within 30–45 days of rollout.",
+        "Absolutely. GEO offers exponential ROI when smaller brands outpace larger competitors in emerging generative engines by being quicker to adapt and appear in AI summaries.",
     },
         {
       question:
-        "Q8. Can you optimize across platforms like ChatGPT and Google SGE simultaneously?",
+        "Q8. What tools do top GEO agencies in India use?",
       answer:
-        "Yes. Our GEO methodology is platform agnostic and scalable built for today's multi-engine generative discovery landscape.",
+        "We leverage tools like Surfer SEO, Clearscope, Jasper, MarketMuse, and our proprietary AI prompt training frameworks to build scalable, cross-platform GEO visibility strategies.",
     },
 
   ],
