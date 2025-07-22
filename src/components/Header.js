@@ -2,27 +2,27 @@
 
 import Link from "next/link";
 import { useEffect } from "react";
+import { usePathname } from "next/navigation";
 
 export default function Header() {
-  useEffect(() => {
-    if (typeof window !== "undefined" && window.AOS) {
-      window.AOS.refresh();
-    }
+  const pathname = usePathname();
 
-    // Close offcanvas on link click
-    const links = document.querySelectorAll(".offcanvas .nav-link");
-    links.forEach((link) => {
-      link.addEventListener("click", () => {
+  useEffect(() => {
+    // Only run in browser
+    if (typeof window !== 'undefined') {
+      import('bootstrap/dist/js/bootstrap.bundle.min.js').then(({ Offcanvas }) => {
         const offcanvasEl = document.querySelector(".offcanvas");
         if (offcanvasEl) {
-          const bsOffcanvas = bootstrap.Offcanvas.getInstance(offcanvasEl);
+          const bsOffcanvas = Offcanvas.getInstance(offcanvasEl);
           if (bsOffcanvas) {
             bsOffcanvas.hide();
           }
         }
+      }).catch(err => {
+        console.error("Bootstrap JS failed to load:", err);
       });
-    });
-  }, []);
+    }
+  }, [pathname]);
 
   return (
     <nav className="navbar navbar-dark bg-transparent py-3">
@@ -35,7 +35,6 @@ export default function Header() {
           />
         </Link>
 
-        {/* Toggle Button */}
         <button
           className="navbar-toggler"
           type="button"
@@ -46,7 +45,6 @@ export default function Header() {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        {/* Offcanvas Menu */}
         <div
           className="offcanvas offcanvas-end text-bg-dark"
           tabIndex="-1"
@@ -78,9 +76,9 @@ export default function Header() {
               <li className="nav-item">
                 <Link className="nav-link fw-bold mb-3" href="/about">About Us</Link>
               </li>
-              <li className="nav-item dropdown ">
+              <li className="nav-item dropdown">
                 <Link
-                  className="nav-link dropdown-toggle fw-bold  mb-3"
+                  className="nav-link dropdown-toggle fw-bold mb-3"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -89,19 +87,12 @@ export default function Header() {
                 </Link>
                 <ul className="dropdown-menu dropdown-menu-dark ps-3">
                   <li>
-                    <Link className="dropdown-item" href="/service/service-1">Service 1</Link>
-                  </li>
-                  <li>
-                    <Link className="dropdown-item" href="/service/service-2">Service 2</Link>
-                  </li>
-                  <li>
-                    <Link className="dropdown-item" href="/service/service-3">Service 3</Link>
-                  </li>
-                  <li>
-                    <Link className="dropdown-item" href="/service/service-4">Service 4</Link>
-                  </li>
-                  <li>
-                    <Link className="dropdown-item" href="/service/service-5">Service 5</Link>
+                    <Link
+                      className="dropdown-item"
+                      href="/service/generative-search-optimization-services-in-bangalore"
+                    >
+                      Generative Search Optimization
+                    </Link>
                   </li>
                 </ul>
               </li>

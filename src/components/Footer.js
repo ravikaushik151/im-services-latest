@@ -113,13 +113,12 @@ export default function Footer() {
             <div className="col-md-2 offset-md-1  col-12 ps-md-3 ps-0 m-center">
               <h6 className="fw-bold text-white mb-md-4 mb-4">Quick Link</h6>
               <ul className="list-unstyled text-white small">
-                <li className="py-2" ><Link href="/services/financial" className="text-decoration-none text-white mb-3">Financial Service</Link></li>
-                <li className="py-2" ><Link href="/services/investment" className="text-decoration-none text-white mb-3">Investment Service</Link></li>
-                <li className="py-2" ><Link href="/services/banking" className="text-decoration-none text-white mb-3">Banking Service</Link></li>
-                <li className="py-2" ><Link href="/services/consulting" className="text-decoration-none text-white mb-3">Consulting Service</Link></li>
-                <li className="py-2" ><Link href="/services/financial" className="text-decoration-none text-white mb-3">Financial Service</Link></li>
-                <li className="py-2" ><Link href="/services/investment" className="text-decoration-none text-white mb-3">Investment Service</Link></li>
-                <li className="py-2" ><Link href="/services/banking" className="text-decoration-none text-white mb-3">Banking Service</Link></li>
+                <li className="py-2" ><Link href="/service/generative-search-optimization-services-in-bangalore" className="text-decoration-none text-white mb-3">Generative Search Optimization</Link></li>
+                <li className="py-2" ><Link href="service/generative-search-optimization-services-in-bangalore" className="text-decoration-none text-white mb-3">Generative Search Optimization</Link></li>
+                <li className="py-2" ><Link href="service/generative-search-optimization-services-in-bangalore" className="text-decoration-none text-white mb-3">Generative Search Optimization</Link></li>
+                <li className="py-2" ><Link href="service/generative-search-optimization-services-in-bangalore" className="text-decoration-none text-white mb-3">Generative Search Optimization</Link></li>
+                <li className="py-2" ><Link href="/service/generative-search-optimization-services-in-bangalore" className="text-decoration-none text-white mb-3">Generative Search Optimization</Link></li>
+              
 
 
 
