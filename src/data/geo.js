@@ -221,7 +221,7 @@ const homeData = {
       subtitle: 'GEO onboarding for CMOs, content heads, and in-house teams.',
       tag: '',
       image: '/img/a7.png',
-      link: 'service'
+      link: 'service' 
     },
   ]
 };
