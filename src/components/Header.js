@@ -69,7 +69,7 @@ export default function Header() {
             ></button>
           </div>
           <div className="offcanvas-body">
-            <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <ul className="navbar-nav justify-content-end flex-grow-1 pe-3 bg-transparent">
               <li className="nav-item">
                 <Link className="nav-link fw-bold mb-3" href="/">Home</Link>
               </li>
