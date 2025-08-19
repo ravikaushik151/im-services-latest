@@ -48,7 +48,10 @@ export default function FaqSection({ faqs }) {
                 </span>
               </div>
               {activeIndex === index && (
-                <p className="text-muted mt-3 mb-0">{item.answer}</p>
+                <div
+                  className="text-muted mt-3 mb-0"
+                  dangerouslySetInnerHTML={{ __html: item.answer }}
+                />
               )}
             </div>
           ))}

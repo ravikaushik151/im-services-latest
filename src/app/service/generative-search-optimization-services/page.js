@@ -1,6 +1,5 @@
 import Image from 'next/image';
-import Link from "next/link";
-import homeData from '@/data/home-new';
+import homeData from '@/data/home';
 import HeroSlider from '@/components/HeroSection';
 import ServiceTabs from '@/components/ServiceTabs';
 import VideoSection from '@/components/VideoSection';
@@ -8,9 +7,10 @@ import ServicesSlider from '@/components/ServicesSlider';
 import BlogCards from '@/components/BlogCards';
 import FaqSection from '@/components/FaqSection';
 import ContactForm from '@/components/ContactForm';
+import Link from "next/link";
 import AnimatedHeadlineSection from '@/components/AnimatedHeadlineSection';
 export default function ServicePage({ params }) {
-  const { heroSlides, about, } = homeData;
+  const { heroSlides, about } = homeData;
 
   return (
     <>
@@ -68,7 +68,7 @@ export default function ServicePage({ params }) {
       <FaqSection faqs={homeData.faqs} />
       <AnimatedHeadlineSection
         background="/img/slider2.jpg"
-        headline="Your audience is already asking AI. Is your brand the answer?"
+        headline="Partner with one of the top GEO agencies in India."
       />
     </>
   );

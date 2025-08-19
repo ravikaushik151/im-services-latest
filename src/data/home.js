@@ -37,7 +37,10 @@ const homeData = {
     imageBack: '/img/3.png',
     imageFront: '/img/2.png',
   },
-  serviceTabs: [
+  serviceTabs: {
+    shortTitle: "Key Features of ",
+    mainTitle: "GEO",
+    items: [
     {
       id: 1,
       title: 'Content Regeneration',
@@ -92,7 +95,8 @@ const homeData = {
       subtitle: '',
       text: 'Creating multi-level topical clusters that answer, engage, and rank across engines and interfaces.',
     }
-  ],
+  ]
+},
   videoBanner: {
     image: '/img/slider3.jpg',
     heading: 'We make the creative solutions for brands!',
