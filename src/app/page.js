@@ -9,6 +9,11 @@ import BlogCards from '@/components/BlogCards';
 import FaqSection from '@/components/FaqSection';
 import ContactForm from '@/components/ContactForm';
 import AnimatedHeadlineSection from '@/components/AnimatedHeadlineSection';
+export const metadata = {
+  title: "Home | IM Solutions",
+  description: "IM Solutions",
+  keywords: "IM Solutions, Services, SEO, Web Development, Digital Marketing",
+};
 export default function ServicePage({ params }) {
   const { heroSlides, about, } = homeData;
 
