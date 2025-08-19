@@ -35,9 +35,9 @@ export default function ServicesSlider({ services }) {
 
       <div className="container position-relative">
         <div className="mb-4" data-aos="fade-up" data-aos-duration="1500">
-          <p className="text-uppercase small text-white">Types of </p>
+          <p className="text-uppercase small text-white">{services.shortTitle}</p>
           <div className="d-flex align-items-center justify-content-between">
-            <h2 className="display-6 fw-bold text-uppercase">GEO Services We Offer</h2>
+            <h2 className="display-6 fw-bold text-uppercase">{services.mainTitle}</h2>
             <div className="d-flex gap-2">
               <button ref={prevRef} className="btn btn-outline-light custom-prev">
                 <i className="bi bi-chevron-left"></i>
@@ -68,7 +68,7 @@ export default function ServicesSlider({ services }) {
             992: { slidesPerView: 2 },
           }}
         >
-          {services.map((service, index) => (
+          {services.items.map((service, index) => (
             <SwiperSlide key={index}>
               <div className="row align-items-center">
                 <div className="col-md-12">

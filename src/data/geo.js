@@ -177,7 +177,10 @@ const homeData = {
     },
 
   ],
-  services: [
+services: {
+    shortTitle: "Types of ",
+    mainTitle: "GEO Services We Offer",
+    items: [
     {
       title: 'GEO Strategy for Enterprises',
       subtitle: ' Multi-platform visibility planning for brands scaling across AI-first markets.',
@@ -228,6 +231,7 @@ const homeData = {
       link: 'service'
     },
   ]
+}
 };
 
 export default homeData;

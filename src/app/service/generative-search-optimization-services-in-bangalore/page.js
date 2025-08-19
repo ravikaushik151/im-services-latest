@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import homeData from '@/data/geo';
+import homeData from '@/data/home';
 import HeroSlider from '@/components/HeroSection';
 import ServiceTabs from '@/components/ServiceTabs';
 import VideoSection from '@/components/VideoSection';

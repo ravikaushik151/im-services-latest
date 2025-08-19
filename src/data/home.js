@@ -41,62 +41,62 @@ const homeData = {
     shortTitle: "Key Features of ",
     mainTitle: "GEO",
     items: [
-    {
-      id: 1,
-      title: 'Content Regeneration',
-      icon: 'bi-briefcase',
-      image: '/img/IM-1.png',
-      heading: 'AI-Tuned Content Architecture',
-      subtitle: '',
-      text: 'Rewriting your pages for SGE logic, voice query interpretation, and generative depth.',
-    },
-    {
-      id: 2,
-      title: 'Intent Intelligence',
-      icon: 'bi-journal-text',
-      image: '/img/IM-1.png',
-      heading: ' Semantic Entity & Intent Mapping',
-      subtitle: '',
-      text: 'Using LLM-friendly structuring to match user questions with brand-qualified answers.',
-    },
-    {
-      id: 3,
-      title: 'AI-Optimized FAQs',
-      icon: 'bi-compass',
-      image: '/img/IM-1.png',
-      heading: 'Generative-Ready FAQs & Microcopy',
-      subtitle: '',
-      text: 'Built to trigger voice search, AI snippets, and featured box appearances.',
-    },
-    {
-      id: 4,
-      title: 'Structured Data Boost',
-      icon: 'bi-globe',
-      image: '/img/IM-1.png',
-      heading: 'Schema-Driven Data Modeling',
-      subtitle: '',
-      text: 'Implementing JSON-LD, HowTo, FAQ, and Product schemas for elevated AI indexing.',
-    },
-    {
-      id: 5,
-      title: 'Conversational Identity',
-      icon: 'bi-people',
-      image: '/img/IM-1.png',
-      heading: 'Conversational Brand Persona',
-      subtitle: '',
-      text: 'We train your tone to resonate across LLM platforms, preserving brand voice while adapting to AI delivery.',
-    },
-    {
-      id: 6,
-      title: 'Clustered Content Strategy',
-      icon: 'bi-bullseye',
-      image: '/img/IM-1.png',
-      heading: 'Generative Content Hubs',
-      subtitle: '',
-      text: 'Creating multi-level topical clusters that answer, engage, and rank across engines and interfaces.',
-    }
-  ]
-},
+      {
+        id: 1,
+        title: 'Content Regeneration',
+        icon: 'bi-briefcase',
+        image: '/img/IM-1.png',
+        heading: 'AI-Tuned Content Architecture',
+        subtitle: '',
+        text: 'Rewriting your pages for SGE logic, voice query interpretation, and generative depth.',
+      },
+      {
+        id: 2,
+        title: 'Intent Intelligence',
+        icon: 'bi-journal-text',
+        image: '/img/IM-1.png',
+        heading: ' Semantic Entity & Intent Mapping',
+        subtitle: '',
+        text: 'Using LLM-friendly structuring to match user questions with brand-qualified answers.',
+      },
+      {
+        id: 3,
+        title: 'AI-Optimized FAQs',
+        icon: 'bi-compass',
+        image: '/img/IM-1.png',
+        heading: 'Generative-Ready FAQs & Microcopy',
+        subtitle: '',
+        text: 'Built to trigger voice search, AI snippets, and featured box appearances.',
+      },
+      {
+        id: 4,
+        title: 'Structured Data Boost',
+        icon: 'bi-globe',
+        image: '/img/IM-1.png',
+        heading: 'Schema-Driven Data Modeling',
+        subtitle: '',
+        text: 'Implementing JSON-LD, HowTo, FAQ, and Product schemas for elevated AI indexing.',
+      },
+      {
+        id: 5,
+        title: 'Conversational Identity',
+        icon: 'bi-people',
+        image: '/img/IM-1.png',
+        heading: 'Conversational Brand Persona',
+        subtitle: '',
+        text: 'We train your tone to resonate across LLM platforms, preserving brand voice while adapting to AI delivery.',
+      },
+      {
+        id: 6,
+        title: 'Clustered Content Strategy',
+        icon: 'bi-bullseye',
+        image: '/img/IM-1.png',
+        heading: 'Generative Content Hubs',
+        subtitle: '',
+        text: 'Creating multi-level topical clusters that answer, engage, and rank across engines and interfaces.',
+      }
+    ]
+  },
   videoBanner: {
     image: '/img/slider3.jpg',
     heading: 'We make the creative solutions for brands!',
@@ -168,57 +168,61 @@ const homeData = {
         "Yes. Our GEO methodology is platform agnostic and scalable built for today's multi-engine generative discovery landscape.",
     },
   ],
-  services: [
-    {
-      title: 'Strategic GEO Audits',
-      subtitle: 'Comprehensive AI-readiness scans of your digital ecosystem',
-      tag: '',
-      image: '/img/a1.png',
-      link: 'service'
-    },
-    {
-      title: 'Local GEO Optimization',
-      subtitle: 'Making your brand discoverable in location-intent queries and map-based AI results.',
-      tag: '',
-      image: '/img/a2.png',
-      link: 'service'
-    },
-    {
-      title: 'Generative Product SEO',
-      subtitle: 'Engineered for marketplaces and eCommerce platforms, optimized for voice and snippet exposure.',
-      tag: '',
-      image: '/img/a3.png',
-      link: 'service'
-    },
-    {
-      title: 'GEO for Enterprise & SaaS',
-      subtitle: 'Structured data frameworks and generative UX mapping for B2B buyers and CXOs.',
-      tag: '',
-      image: '/img/a4.png',
-      link: 'service'
-    },
-    {
-      title: 'AI-Centric Copywriting',
-      subtitle: 'Microcopy, answers, and narratives tailored for generative training datasets.',
-      tag: '',
-      image: '/img/a5.png',
-      link: 'service'
-    },
-    {
-      title: 'Technical GEO Engineering',
-      subtitle: 'Performance-layer upgrades, schema injection, and crawl simulation for AI engines.',
-      tag: '',
-      image: '/img/a6.png',
-      link: 'service'
-    },
-    {
-      title: 'Workshops & Team Enablement',
-      subtitle: 'GEO onboarding for CMOs, content heads, and in-house teams.',
-      tag: '',
-      image: '/img/a7.png',
-      link: 'service'
-    },
-  ]
+  services: {
+    shortTitle: "Types of ",
+    mainTitle: "Services We Offer",
+    items: [
+      {
+        title: 'Strategic GEO Audits',
+        subtitle: 'Comprehensive AI-readiness scans of your digital ecosystem',
+        tag: '',
+        image: '/img/a1.png',
+        link: 'service'
+      },
+      {
+        title: 'Local GEO Optimization',
+        subtitle: 'Making your brand discoverable in location-intent queries and map-based AI results.',
+        tag: '',
+        image: '/img/a2.png',
+        link: 'service'
+      },
+      {
+        title: 'Generative Product SEO',
+        subtitle: 'Engineered for marketplaces and eCommerce platforms, optimized for voice and snippet exposure.',
+        tag: '',
+        image: '/img/a3.png',
+        link: 'service'
+      },
+      {
+        title: 'GEO for Enterprise & SaaS',
+        subtitle: 'Structured data frameworks and generative UX mapping for B2B buyers and CXOs.',
+        tag: '',
+        image: '/img/a4.png',
+        link: 'service'
+      },
+      {
+        title: 'AI-Centric Copywriting',
+        subtitle: 'Microcopy, answers, and narratives tailored for generative training datasets.',
+        tag: '',
+        image: '/img/a5.png',
+        link: 'service'
+      },
+      {
+        title: 'Technical GEO Engineering',
+        subtitle: 'Performance-layer upgrades, schema injection, and crawl simulation for AI engines.',
+        tag: '',
+        image: '/img/a6.png',
+        link: 'service'
+      },
+      {
+        title: 'Workshops & Team Enablement',
+        subtitle: 'GEO onboarding for CMOs, content heads, and in-house teams.',
+        tag: '',
+        image: '/img/a7.png',
+        link: 'service'
+      },
+    ]
+  }
 };
 
 export default homeData;

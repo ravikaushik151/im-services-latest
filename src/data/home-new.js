@@ -168,212 +168,217 @@ const homeData = {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.",
     },
   ],
-  services: [
-    {
-      title: 'WEB DESIGN & DEVELOPMENT',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
-      tag: '',
-      image: '/img/a1.png',
-      link: 'service'
-    },
-    {
-      title: 'SEARCH ENGINE OPTIMIZATION',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
-      tag: '',
-      image: '/img/a2.png',
-      link: 'service'
-    },
-    {
-      title: 'SEARCH ENGINE MARKETING',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
-      tag: '',
-      image: '/img/a3.png',
-      link: 'service'
-    },
-    {
-      title: 'SOCIAL MEDIA MARKETING',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
-      tag: '',
-      image: '/img/a4.png',
-      link: 'service'
-    },
-    {
-      title: 'SOCIAL MEDIA OPTIMIZATION',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
-      tag: '',
-      image: '/img/a5.png',
-      link: 'service'
-    },
-    {
-      title: 'ONLINE REPUTATION MANAGEMENT',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
-      tag: '',
-      image: '/img/a6.png',
-      link: 'service'
-    },
-    {
-      title: 'BRANDING / REBRANDING',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
-      tag: '',
-      image: '/img/a7.png',
-      link: 'service'
-    },
-    {
-      title: 'DISPLAY ADS',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
-      tag: '',
-      image: '/img/a7.png',
-      link: 'service'
-    },
-    {
-      title: 'PERFORMANCE MARKETING',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
-      tag: '',
-      image: '/img/a7.png',
-      link: 'service'
-    },
-    {
-      title: 'CLASSIFIED PORTAL MANAGEMENT',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
-      tag: '',
-      image: '/img/a7.png',
-      link: 'service'
-    },
-    {
-      title: 'MOBILE APP DEVELOPMENT',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
-      tag: '',
-      image: '/img/a7.png',
-      link: 'service'
-    },
-    {
-      title: 'E COMMERCE SOLUTIONS',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
-      tag: '',
-      image: '/img/a7.png',
-      link: 'service'
-    },
-    {
-      title: 'PRESS RELEASES / BLOG ARTICLES',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
-      tag: '',
-      image: '/img/a7.png',
-      link: 'service'
-    },
-    {
-      title: 'SOFTWARE DESIGN & DEVELOPMENT',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
-      tag: '',
-      image: '/img/a7.png',
-      link: 'service'
-    },
-    {
-      title: 'API INTEGRATION',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
-      tag: '',
-      image: '/img/a7.png',
-      link: 'service'
-    },
-    {
-      title: 'EMAIL MARKETING',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
-      tag: '',
-      image: '/img/a7.png',
-      link: 'service'
-    },
-    {
-      title: 'DIGITAL MARKETING REAL ESTATE ',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
-      tag: '',
-      image: '/img/a7.png',
-      link: 'service'
-    },
-    {
-      title: 'SMS CAMPAIGNS',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
-      tag: '',
-      image: '/img/a7.png',
-      link: 'service'
-    },
-    {
-      title: 'PR Services',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
-      tag: '',
-      image: '/img/a7.png',
-      link: 'service'
-    },
-    {
-      title: 'BRANDING / REBRANDING',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
-      tag: '',
-      image: '/img/a7.png',
-      link: 'service'
-    },
-    {
-      title: 'BRANDING / REBRANDING',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
-      tag: '',
-      image: '/img/a7.png',
-      link: 'service'
-    },
-    {
-      title: 'BRANDING / REBRANDING',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
-      tag: '',
-      image: '/img/a7.png',
-      link: 'service'
-    },
-    {
-      title: 'BRANDING / REBRANDING',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
-      tag: '',
-      image: '/img/a7.png',
-      link: 'service'
-    },
-    {
-      title: 'BRANDING / REBRANDING',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
-      tag: '',
-      image: '/img/a7.png',
-      link: 'service'
-    },
-    {
-      title: 'BRANDING / REBRANDING',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
-      tag: '',
-      image: '/img/a7.png',
-      link: 'service'
-    },
-    {
-      title: 'BRANDING / REBRANDING',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
-      tag: '',
-      image: '/img/a7.png',
-      link: 'service'
-    },
-    {
-      title: 'BRANDING / REBRANDING',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
-      tag: '',
-      image: '/img/a7.png',
-      link: 'service'
-    },
-    {
-      title: 'BRANDING / REBRANDING',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
-      tag: '',
-      image: '/img/a7.png',
-      link: 'service'
-    },
-    {
-      title: 'BRANDING / REBRANDING',
-      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
-      tag: '',
-      image: '/img/a7.png',
-      link: 'service'
-    },
+  services: {
+    shortTitle: "Types of ",
+    mainTitle: "Services We Offer",
+    items: [
+      {
+        title: 'WEB DESIGN & DEVELOPMENT',
+        subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
+        tag: '',
+        image: '/img/a1.png',
+        link: 'service'
+      },
+      {
+        title: 'SEARCH ENGINE OPTIMIZATION',
+        subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
+        tag: '',
+        image: '/img/a2.png',
+        link: 'service'
+      },
+      {
+        title: 'SEARCH ENGINE MARKETING',
+        subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
+        tag: '',
+        image: '/img/a3.png',
+        link: 'service'
+      },
+      {
+        title: 'SOCIAL MEDIA MARKETING',
+        subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
+        tag: '',
+        image: '/img/a4.png',
+        link: 'service'
+      },
+      {
+        title: 'SOCIAL MEDIA OPTIMIZATION',
+        subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
+        tag: '',
+        image: '/img/a5.png',
+        link: 'service'
+      },
+      {
+        title: 'ONLINE REPUTATION MANAGEMENT',
+        subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
+        tag: '',
+        image: '/img/a6.png',
+        link: 'service'
+      },
+      {
+        title: 'BRANDING / REBRANDING',
+        subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
+        tag: '',
+        image: '/img/a7.png',
+        link: 'service'
+      },
+      {
+        title: 'DISPLAY ADS',
+        subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
+        tag: '',
+        image: '/img/a7.png',
+        link: 'service'
+      },
+      {
+        title: 'PERFORMANCE MARKETING',
+        subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
+        tag: '',
+        image: '/img/a7.png',
+        link: 'service'
+      },
+      {
+        title: 'CLASSIFIED PORTAL MANAGEMENT',
+        subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
+        tag: '',
+        image: '/img/a7.png',
+        link: 'service'
+      },
+      {
+        title: 'MOBILE APP DEVELOPMENT',
+        subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
+        tag: '',
+        image: '/img/a7.png',
+        link: 'service'
+      },
+      {
+        title: 'E COMMERCE SOLUTIONS',
+        subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
+        tag: '',
+        image: '/img/a7.png',
+        link: 'service'
+      },
+      {
+        title: 'PRESS RELEASES / BLOG ARTICLES',
+        subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
+        tag: '',
+        image: '/img/a7.png',
+        link: 'service'
+      },
+      {
+        title: 'SOFTWARE DESIGN & DEVELOPMENT',
+        subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
+        tag: '',
+        image: '/img/a7.png',
+        link: 'service'
+      },
+      {
+        title: 'API INTEGRATION',
+        subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
+        tag: '',
+        image: '/img/a7.png',
+        link: 'service'
+      },
+      {
+        title: 'EMAIL MARKETING',
+        subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
+        tag: '',
+        image: '/img/a7.png',
+        link: 'service'
+      },
+      {
+        title: 'DIGITAL MARKETING REAL ESTATE ',
+        subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
+        tag: '',
+        image: '/img/a7.png',
+        link: 'service'
+      },
+      {
+        title: 'SMS CAMPAIGNS',
+        subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
+        tag: '',
+        image: '/img/a7.png',
+        link: 'service'
+      },
+      {
+        title: 'PR Services',
+        subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
+        tag: '',
+        image: '/img/a7.png',
+        link: 'service'
+      },
+      {
+        title: 'BRANDING / REBRANDING',
+        subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
+        tag: '',
+        image: '/img/a7.png',
+        link: 'service'
+      },
+      {
+        title: 'BRANDING / REBRANDING',
+        subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
+        tag: '',
+        image: '/img/a7.png',
+        link: 'service'
+      },
+      {
+        title: 'BRANDING / REBRANDING',
+        subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
+        tag: '',
+        image: '/img/a7.png',
+        link: 'service'
+      },
+      {
+        title: 'BRANDING / REBRANDING',
+        subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
+        tag: '',
+        image: '/img/a7.png',
+        link: 'service'
+      },
+      {
+        title: 'BRANDING / REBRANDING',
+        subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
+        tag: '',
+        image: '/img/a7.png',
+        link: 'service'
+      },
+      {
+        title: 'BRANDING / REBRANDING',
+        subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
+        tag: '',
+        image: '/img/a7.png',
+        link: 'service'
+      },
+      {
+        title: 'BRANDING / REBRANDING',
+        subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
+        tag: '',
+        image: '/img/a7.png',
+        link: 'service'
+      },
+      {
+        title: 'BRANDING / REBRANDING',
+        subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
+        tag: '',
+        image: '/img/a7.png',
+        link: 'service'
+      },
+      {
+        title: 'BRANDING / REBRANDING',
+        subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
+        tag: '',
+        image: '/img/a7.png',
+        link: 'service'
+      },
+      {
+        title: 'BRANDING / REBRANDING',
+        subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.',
+        tag: '',
+        image: '/img/a7.png',
+        link: 'service'
+      },
+    ]
+  }
 
-  ]
+
 };
 
 export default homeData;
