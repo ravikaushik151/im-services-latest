@@ -7,7 +7,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import Header from '@/components/Header';
-import Footer from '@/components/Footer';
+import FooterWrapper from '@/components/FooterWrapper';
 import BootstrapClient from '@/components/BootstrapClient';
 
 
@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
         <AOSProvider>
           <Header />
           {children}
-          <Footer />
+          <FooterWrapper /> 
         </AOSProvider>
       </body>
     </html>

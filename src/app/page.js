@@ -9,6 +9,66 @@ import BlogCards from '@/components/BlogCards';
 import FaqSection from '@/components/FaqSection';
 import ContactForm from '@/components/ContactForm';
 import AnimatedHeadlineSection from '@/components/AnimatedHeadlineSection';
+import WhyChooseUs from "@/components/WhyChooseUs";
+import BusinessServices from '@/components/BusinessServices';
+import ClientsSection from "@/components/ClientsSection";
+import CareerSection from "@/components/CareerSection";
+const servicess = [
+  {
+    title: 'DESIGN & DEVELOPMENT',
+    description: 'Lorem ipsum simply dummy text of amet consectetur.',
+    tag: 'FINANCE',
+    image: '/img/a3.png',
+    link: '/services/finance',
+  },
+  {
+    title: 'SEARCH ENGINE OPTIMIZATION',
+    description: 'Lorem ipsum simply dummy text of amet consectetur.',
+    tag: 'ANALYTICS',
+    image: '/img/a2.png',
+    link: '/services/tech',
+  },
+  {
+    title: 'SOCIAL MEDIA MARKETING',
+    description: 'Lorem ipsum simply dummy text of amet consectetur.',
+    tag: 'DIGITAL',
+    image: '/img/a4.png',
+    link: '/services/commerce',
+  },
+  {
+    title: 'Cloud computing',
+    description: 'Lorem ipsum simply dummy text of amet consectetur.',
+    tag: 'DIGITAL',
+    image: '/img/a5.png',
+    link: '/services/cloud',
+  },
+
+];
+const clientsData = {
+  clients: {
+    title: "OUR CLIENTS",
+    clients: [
+      { name: "Asset", logo: "/img/buildwell-projects.png" },
+      { name: "Assets Guru", logo: "/img/buildwell-projects.png" },
+      { name: "Axis", logo: "/img/buildwell-projects.png" },
+      { name: "Brigade", logo: "/img/buildwell-projects.png" },
+      { name: "BSR", logo: "/img/buildwell-projects.png" },
+      { name: "Prestige", logo: "/img/buildwell-projects.png" },
+    ],
+    buttonText: "VIEW ALL CLIENTS",
+    buttonLink: "/clients",
+  },
+}
+const careerData = {
+  career: {
+    title: "CAREER",
+    description:
+      "Interested in joining our phenomenal family? As a rapidly expanding company, we are always on the lookout for young, energetic and creative blood...",
+    backgroundImage: "/img/slider3.jpg",
+    buttonText: "APPLY",
+    buttonLink: "/career",
+  },
+}
 export const metadata = {
   title: "Home | IM Solutions",
   description: "IM Solutions",
@@ -65,16 +125,22 @@ export default function ServicePage({ params }) {
           </div>
         </div>
       </section>
+      <WhyChooseUs />
+      {/* <ServiceTabs services={homeData.serviceTabs} /> */}
 
-      <ServiceTabs services={homeData.serviceTabs} />
+
+      <BusinessServices services={servicess} />
       <VideoSection />
-      <ServicesSlider services={homeData.services} />
+      {/* <ServicesSlider services={homeData.services} /> */}
+
       <BlogCards posts={homeData.blogPosts} />
-      <FaqSection faqs={homeData.faqs} />
-      <AnimatedHeadlineSection
+      {/* <FaqSection faqs={homeData.faqs} /> */}
+      <CareerSection data={careerData.career} />
+      <ClientsSection data={clientsData.clients} />
+      {/* <AnimatedHeadlineSection
         background="/img/slider2.jpg"
         headline="Your audience is already asking AI. Is your brand the answer?"
-      />
+      /> */}
     </>
   );
 }

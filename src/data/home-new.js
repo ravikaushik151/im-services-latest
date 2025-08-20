@@ -155,18 +155,7 @@ const homeData = {
       answer:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.",
     },
-    {
-      question:
-        "Q7. Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
-      answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.",
-    },
-    {
-      question:
-        "Q8. Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
-      answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.",
-    },
+   
   ],
   services: {
     shortTitle: "Types of ",
