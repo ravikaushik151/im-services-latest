@@ -18,7 +18,7 @@ const servicess = [
     title: 'DESIGN & DEVELOPMENT',
     description: 'Lorem ipsum simply dummy text of amet consectetur.',
     tag: 'FINANCE',
-    image: '/img/a3.png',
+    image: '/img/A3.png',
     link: '/services/finance',
   },
   {
@@ -32,14 +32,14 @@ const servicess = [
     title: 'SOCIAL MEDIA MARKETING',
     description: 'Lorem ipsum simply dummy text of amet consectetur.',
     tag: 'DIGITAL',
-    image: '/img/a4.png',
+    image: '/img/A4.png',
     link: '/services/commerce',
   },
   {
     title: 'Cloud computing',
     description: 'Lorem ipsum simply dummy text of amet consectetur.',
     tag: 'DIGITAL',
-    image: '/img/a5.png',
+    image: '/img/A5.png',
     link: '/services/cloud',
   },
 
