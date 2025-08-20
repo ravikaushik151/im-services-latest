@@ -840,7 +840,7 @@ body {
 
 /* Footer */
 .why-card .card-footer {
-  margin-top: -150px;
+  margin-top: -100%;
   margin-bottom: 30px;
   background-color: transparent;
   color: #fff;
@@ -849,7 +849,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
   border: none;
-  padding: 12px 0;
+  padding: 12px 15px;
   z-index: 99;
 }
 
