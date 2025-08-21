@@ -47,8 +47,8 @@ export default function About() {
        </div>
       </div>
 
-      <div className="row mb-5">
-       <div className="col-md-6 mb-4 mb-md-0 d-flex align-items-center justify-content-center" data-aos="fade-right" data-aos-duration="1400">
+      <div className="row ">
+       <div className="col-md-6 mb-4 mb-md-0 my-5" data-aos="fade-right" data-aos-duration="1400">
         <div>
 
          <div className="container bg-white rounded-4  position-relative z-1">
@@ -62,44 +62,44 @@ export default function About() {
           <div className="accordion" id="faqAccordion">
 
            {/* FAQ 1 */}
-           <div className="accordion-item">
+           <div className="accordion-item mb-3">
             <h2 className="accordion-header" id="headingOne">
              <button
-              className="accordion-button collapsed"
+              className="accordion-button collapsed bg-black text-white "
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseOne"
               aria-expanded="false"
               aria-controls="collapseOne"
              >
-             Jobs 1
+              Jobs 1
              </button>
             </h2>
             <div
              id="collapseOne"
-             className="accordion-collapse collapse"
+             className="accordion-collapse collapse show"
              aria-labelledby="headingOne"
              data-bs-parent="#faqAccordion"
             >
              <div className="accordion-body">
-              You will need to provide a valid ID proof, address proof, and your
-              credit card details.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit, aliquet eget commodo nec, auctor a sapien. Nam eu neque vulputate diam rhoncus faucibus. Curabitur quis varius libero. Lorem.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit, aliquet eget commodo nec, auctor a sapien. Nam eu neque vulputate diam rhoncus faucibus. Curabitur quis varius libero. Lorem.
              </div>
             </div>
            </div>
 
            {/* FAQ 2 */}
-           <div className="accordion-item">
+           <div className="accordion-item mb-3">
             <h2 className="accordion-header" id="headingTwo">
              <button
-              className="accordion-button collapsed"
+              className="accordion-button collapsed bg-black text-white"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseTwo"
               aria-expanded="false"
               aria-controls="collapseTwo"
              >
-              2. How can I obtain cash against my credit card?
+              Lorem ipsum dolor sit amet
              </button>
             </h2>
             <div
@@ -109,24 +109,23 @@ export default function About() {
              data-bs-parent="#faqAccordion"
             >
              <div className="accordion-body">
-              You can visit our branch or call customer support to initiate the
-              cash withdrawal process.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.
              </div>
             </div>
            </div>
 
            {/* FAQ 3 */}
-           <div className="accordion-item">
+           <div className="accordion-item mb-3">
             <h2 className="accordion-header" id="headingThree">
              <button
-              className="accordion-button collapsed"
+              className="accordion-button collapsed  bg-black text-white"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseThree"
               aria-expanded="false"
               aria-controls="collapseThree"
              >
-              3. Is it safe to get cash using my credit card?
+              Lorem ipsum dolor sit amet
              </button>
             </h2>
             <div
@@ -136,24 +135,23 @@ export default function About() {
              data-bs-parent="#faqAccordion"
             >
              <div className="accordion-body">
-              Yes, it is completely safe as long as you use authorized channels
-              and follow the process correctly.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.
              </div>
             </div>
            </div>
 
            {/* FAQ 4 */}
-           <div className="accordion-item">
+           <div className="accordion-item mb-3">
             <h2 className="accordion-header" id="headingFour">
              <button
-              className="accordion-button collapsed"
+              className="accordion-button collapsed  bg-black text-white"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseFour"
               aria-expanded="false"
               aria-controls="collapseFour"
              >
-              4. What does “cash against a credit card” mean?
+              Lorem ipsum dolor sit amet
              </button>
             </h2>
             <div
@@ -163,13 +161,10 @@ export default function About() {
              data-bs-parent="#faqAccordion"
             >
              <div className="accordion-body">
-              It means you can withdraw cash from your credit card&apos;s
-              available balance. We simply swipe your card, and the funds are
-              transferred to your account immediately. For details, call us at
-              +91-7090122133. We&apos;re here to help!
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.
              </div>
             </div>
-            ----
+           
 
 
            </div>
@@ -184,16 +179,16 @@ export default function About() {
         </div>
        </div>
 
-       <div className="col-md-6 mb-4 mb-md-0 d-flex align-items-center justify-content-center py-5" data-aos="fade-left" data-aos-duration="1400">
+       <div className="col-md-6 mb-4 mb-md-0 d-flex align-items-center justify-content-center py-5 " data-aos="fade-left" data-aos-duration="1400">
         <div>
 
-         <div className="   bg-light">
+         <div className="  shadow-md bg-light">
           <p className="text-uppercase fw-bold mb-1">
            <span className="text-muted"> &nbsp;</span>
            <span className="text-primary">&nbsp;</span>
           </p>
           <h2 className="fw-bold mb-4 text-uppercase text-center">Apply Now</h2>
-          <form className="row g-3 px-4 py-4  rounded-4 shadow-sm">
+          <form className="row g-3 px-4 py-4  rounded-4 ">
            {/* Name */}
            <div className="col-md-6">
             <input
