@@ -336,7 +336,19 @@ body {
   margin-top: -100px;
 }
 
+.about-page-img {
+  min-height: 92vh;
+}
+
 @media (max-width: 768px) {
+  .about-page-img {
+    min-height: 50vh;
+  }
+
+  .m-center {
+    text-align: center !important;
+  }
+
   .top-hero {
     margin-top: -150px;
   }
@@ -639,14 +651,21 @@ body {
     margin-left: 0 !important;
   }
 }
+
 @media (max-width: 991.98px) {
+
   .top-hero .swiper-button-prev,
   .top-hero .swiper-button-next {
     display: none !important;
   }
- 
+
 }
-   .dropdown-item:focus, .dropdown-item:hover{background-color:rgba(0, 0, 0, 0.05) !important;}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+}
+
 @media (max-width: 768px) {
 
   .creative {
@@ -726,17 +745,16 @@ body {
 }
 
 .why-choose-section {
-  background-color: #fdfbf9; /* light cream background */
+  background-color: #fdfbf9;
+  /* light cream background */
   padding: 60px 0;
 }
 
 /* Overlay on card image */
 .why-card .card-img-overlay {
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.4),
-    rgba(0, 0, 0, 0.6)
-  );
+  background: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.6));
   border-radius: 0.5rem;
   color: #fff;
 }
@@ -782,6 +800,7 @@ body {
   font-weight: 700;
   margin-bottom: 40px;
 }
+
 /* Section */
 .why-choose-section {
   background-color: #fcf9f6;
@@ -870,13 +889,16 @@ body {
   overflow: hidden;
   transition: transform 0.3s ease;
 }
+
 .service-card:hover {
   transform: translateY(-5px);
 }
+
 .service-card .card-img-top {
   object-fit: cover;
   height: 200px;
 }
+
 .service-card .badge {
   font-size: 0.75rem;
   letter-spacing: 0.5px;
@@ -900,13 +922,14 @@ body {
   justify-content: center;
   transition: 0.3s ease;
 }
+
 .business-section .swiper-nav .btn-nav:hover {
   background: #333;
 }
 
 /* Hide default arrows */
-.business-section .swiper-button-next, .business-section
-.swiper-button-prev {
+.business-section .swiper-button-next,
+.business-section .swiper-button-prev {
   display: none !important;
 }
 
@@ -914,13 +937,14 @@ body {
 .business-section .swiper-pagination-bullet {
   background: #000;
 }
+
 .overlay2 {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0, 0, 0, .5);
   color: white;
   display: flex;
   justify-content: center;
@@ -985,7 +1009,7 @@ body {
 
 .contact_info_sec {
   position: absolute;
- 
+
   right: 1px;
   top: 8%;
   height: 340px;
@@ -1000,7 +1024,7 @@ body {
 }
 
 .info_single {
-  margin:5px 10px;
+  margin: 5px 10px;
 }
 
 .info_single i {
@@ -1011,4 +1035,21 @@ body {
   font-size: 14px;
   letter-spacing: 1px;
   color: #fff !important
+}
+
+@media (max-width: 768px) {
+  .contact_inner {box-shadow:none}
+  .contact_field {
+    padding: 30px;
+  }
+  .contact_info_sec {
+    position: relative;
+
+    right: auto;
+    top: auto;
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+    border-radius: 25px ;
+  }
 }

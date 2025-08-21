@@ -38,7 +38,7 @@ export default function About() {
     <div className="container">
      <div className="row align-items-center">
 
-      <div className="col-md-12 mb-4 mb-md-0 d-flex align-items-center justify-content-center" data-aos="fade-right" data-aos-duration="1400">
+      <div className="col-md-12 mb-4 mb-md-4 mb-4 " data-aos="fade-right" data-aos-duration="1400">
        <div>
 
         <h2 className="fw-bold text-uppercase  mb-3 text-center">Careers</h2>
@@ -47,16 +47,16 @@ export default function About() {
        </div>
       </div>
 
-      <div className="row ">
-       <div className="col-md-6 mb-4 mb-md-0 my-5" data-aos="fade-right" data-aos-duration="1400">
+    
+       <div className="col-md-6 " data-aos="fade-right" data-aos-duration="1400">
         <div>
 
-         <div className="container bg-white rounded-4  position-relative z-1">
+         <div className=" bg-white rounded-4  position-relative z-1">
           <p className="text-uppercase fw-bold mb-1">
            <span className="text-muted">&nbsp; </span>
            <span className="text-primary">&nbsp;</span>
           </p>
-          <h5 className="fw-bold mb-4 text-uppercase">Current Openings</h5>
+          <h5 className="fw-bold mb-4 text-uppercase m-center">Current Openings</h5>
 
 
           <div className="accordion" id="faqAccordion">
@@ -164,7 +164,7 @@ export default function About() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien.
              </div>
             </div>
-           
+
 
 
            </div>
@@ -179,15 +179,15 @@ export default function About() {
         </div>
        </div>
 
-       <div className="col-md-6 mb-4 mb-md-0 d-flex align-items-center justify-content-center py-5 " data-aos="fade-left" data-aos-duration="1400">
+       <div className="col-md-6  " data-aos="fade-left" data-aos-duration="1400">
         <div>
 
-         <div className="  shadow-md bg-light">
+         <div className=" rounded-4 shadow-md bg-light">
           <p className="text-uppercase fw-bold mb-1">
            <span className="text-muted"> &nbsp;</span>
            <span className="text-primary">&nbsp;</span>
           </p>
-          <h2 className="fw-bold mb-4 text-uppercase text-center">Apply Now</h2>
+          <h5 className="fw-bold mb-4 text-uppercase m-center text-center">Apply Now</h5>
           <form className="row g-3 px-4 py-4  rounded-4 ">
            {/* Name */}
            <div className="col-md-6">
@@ -277,7 +277,7 @@ export default function About() {
 
         </div>
        </div>
-      </div>
+      
 
 
      </div>

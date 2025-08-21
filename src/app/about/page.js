@@ -67,14 +67,14 @@ export default function About() {
                   alt="Team Working"
                   width={400}
                   height={400}
-                  className="rounded shadow img-fluid"
+                  className="rounded shadow img-fluid mb-3"
                   data-aos="fade-left"
                   data-aos-duration="1400"
                 />
 
               </div>
             </div>
-            <div className="col-md-6 mb-4 mb-md-0 d-flex align-items-center" data-aos="fade-right" data-aos-duration="1400">
+            <div className="col-md-6 mb-4 mb-md-0 d-flex align-items-center py-3" data-aos="fade-right" data-aos-duration="1400">
               <div>
                 <p className="text-uppercase text-muted small mb-0">About</p>
                 <h2 className="fw-bold text-uppercase  mb-3">IM Solutions</h2>
@@ -105,7 +105,7 @@ export default function About() {
                 <div className="card h-100 border-0 shadow-sm rounded-4 p-4 text-center bg-light" style={{ backgroundColor: '#fff' }}>
                   <div className="card-body d-flex flex-column align-items-center justify-content-center">
                     <div className="icon-wrapper mb-3" style={{ color: '#d4af37', fontSize: '2.5rem' }}>
-                    
+
                       <Image src={reason.icon} width={100} height={100} className="img-fluid"></Image>
                     </div>
                     <h5 className="card-title fw-semibold mb-2" style={{ color: '#333' }}>
@@ -137,12 +137,12 @@ export default function About() {
             {/* Left Column - Image */}
             <div className="col-lg-6">
               <div
-                className="d-flex justify-content-center align-items-center h-100 p-4"
+                className="d-flex justify-content-center align-items-center h-100 p-4 about-page-img"
                 style={{
                   backgroundImage: `url('/img/OB3.png')`, // Placeholder image
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
-                  minHeight: '92vh', // Ensure image container has a min-height
+
                   borderRadius: '0 rem', // Apply rounded corners
                 }}
               >
@@ -221,12 +221,12 @@ export default function About() {
 
             </div>
             <div className="col-md-6 px-md-5 px-3">
-              <Image src="/img/blog1.jpg" width={650} height={400} className="d-block w-100" alt="slider" />
+              <Image src="/img/blog1.jpg" width={650} height={400} className="d-block w-100 img-fluid" alt="slider" />
             </div>
           </div>
           <div className="row align-items-center  my-4 py-5">
             <div className="col-md-6 px-md-5 px-3">
-              <Image src="/img/blog1.jpg" width={650} height={400} className="d-block w-100" alt="slider" />
+              <Image src="/img/blog1.jpg" width={650} height={400} className="d-block w-100 img-fluid" alt="slider" />
             </div>
             <div className="col-md-6 text-white  px-md-5 px-3">
               <h5 className="text-uppercase text-start text-black fw-bold">Vision</h5>

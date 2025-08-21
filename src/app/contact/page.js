@@ -34,12 +34,12 @@ export default function About() {
       </div>
 
 
-      <section className="section bg-white" data-aos="fade-up" data-aos-duration="1000">
+      <section className="py-5 bg-white" data-aos="fade-up" data-aos-duration="1000">
         <div className="container">
           <div className="row align-items-center">
            
 
-            <div className="row">
+            <div className="div">
               <div className="col-md-12 mt-3 ">
                 <div className="contact_inner bg-light">
                   <div className="row">
@@ -91,7 +91,7 @@ export default function About() {
 
 
                   </div>
-                  <div className="contact_info_sec bg-black my-5">
+                  <div className="contact_info_sec bg-black my-3 my-md-5">
                     <h4 className="text-white">Contact Info</h4>
                     <div className="d-flex info_single align-items-center text-white">
                       <a

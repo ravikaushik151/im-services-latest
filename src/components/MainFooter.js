@@ -185,7 +185,7 @@ export default function Footer() {
 
        <div className="row px-md-3 px-3">
 
-        <h4 className="footer-title text-start ps-4">Enquire Now</h4>
+        <h4 className="footer-title  m-center ps-4">Enquire Now</h4>
         <div className="col-md-12 d-block mx-auto shadow  text-white rounded-4 my-3" >
 
 
