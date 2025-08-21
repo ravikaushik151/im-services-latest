@@ -787,7 +787,7 @@ body {
 
 /* Heading small label */
 .why-heading-small {
-  color: #b58952;
+  color: #000;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 0.9rem;
@@ -809,7 +809,7 @@ body {
 
 /* Heading small label */
 .why-heading-small {
-  color: #b58952;
+  color: #000;
   font-weight: 600;
   font-size: 0.9rem;
   letter-spacing: 1px;
@@ -1036,6 +1036,7 @@ body {
   letter-spacing: 1px;
   color: #fff !important
 }
+/* In your CSS file (e.g., globals.css or a dedicated module) */
 
 @media (max-width: 768px) {
   .contact_inner {box-shadow:none}
