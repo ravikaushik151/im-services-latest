@@ -97,7 +97,7 @@ export default function Header() {
                 </ul>
               </li>
               <li className="nav-item">
-                <Link className="nav-link fw-bold mb-3" href="/portfolio">Portfolio</Link>
+                <Link className="nav-link fw-bold mb-3" href="/careers">Career</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link fw-bold mb-3" href="/contact">Contact</Link>
