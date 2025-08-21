@@ -91,7 +91,7 @@ export default function About() {
 
 
                   </div>
-                  <div className="contact_info_sec bg-danger my-5">
+                  <div className="contact_info_sec bg-black my-5">
                     <h4 className="text-white">Contact Info</h4>
                     <div className="d-flex info_single align-items-center text-white">
                       <a
